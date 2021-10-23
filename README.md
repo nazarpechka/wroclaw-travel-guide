@@ -1,2 +1,4 @@
-# wroclaw-travel-guide
-Wroclaw Travel Guide is an application aimed to help tourists visit Wroclaw
+# Wroclaw Travel Guide
+## Projekt na laboratorium Programowanie aplikacji na system IOS
+
+
