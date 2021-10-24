@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "placeslogo.png",
+      "filename" : "city-council@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "city-council@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "city-council@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
