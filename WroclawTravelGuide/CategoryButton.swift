@@ -34,7 +34,15 @@ struct CategoryButton: View {
                 
             }
         }
+        .buttonStyle(MyButtonStyle())
         
+    }
+}
+
+struct MyButtonStyle: ButtonStyle {
+    public func makeBody(configuration: MyButtonStyle.Configuration) -> some View {
+        configuration.label
+            .opacity(configuration.isPressed ? 1 : 1)
     }
 }
 
