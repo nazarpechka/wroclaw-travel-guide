@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E91AB8FE2724738500FD7889 /* Wroclaw Travel Guide */ = {
+		E91AB8FE2724738500FD7889 /* WroclawTravelGuide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E91AB90D2724738800FD7889 /* Build configuration list for PBXNativeTarget "Wroclaw Travel Guide" */;
+			buildConfigurationList = E91AB90D2724738800FD7889 /* Build configuration list for PBXNativeTarget "WroclawTravelGuide" */;
 			buildPhases = (
 				E91AB8FB2724738500FD7889 /* Sources */,
 				E91AB8FC2724738500FD7889 /* Frameworks */,
@@ -107,7 +107,7 @@
 			);
 			dependencies = (
 			);
-			name = "Wroclaw Travel Guide";
+			name = WroclawTravelGuide;
 			productName = WroclawTravelGuide;
 			productReference = E91AB8FF2724738500FD7889 /* Wroclaw Travel Guide.app */;
 			productType = "com.apple.product-type.application";
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E91AB8FA2724738500FD7889 /* Build configuration list for PBXProject "Wroclaw Travel Guide" */;
+			buildConfigurationList = E91AB8FA2724738500FD7889 /* Build configuration list for PBXProject "WroclawTravelGuide" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E91AB8FE2724738500FD7889 /* Wroclaw Travel Guide */,
+				E91AB8FE2724738500FD7889 /* WroclawTravelGuide */,
 			);
 		};
 /* End PBXProject section */
@@ -356,7 +356,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E91AB8FA2724738500FD7889 /* Build configuration list for PBXProject "Wroclaw Travel Guide" */ = {
+		E91AB8FA2724738500FD7889 /* Build configuration list for PBXProject "WroclawTravelGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E91AB90B2724738800FD7889 /* Debug */,
@@ -365,7 +365,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E91AB90D2724738800FD7889 /* Build configuration list for PBXNativeTarget "Wroclaw Travel Guide" */ = {
+		E91AB90D2724738800FD7889 /* Build configuration list for PBXNativeTarget "WroclawTravelGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E91AB90E2724738800FD7889 /* Debug */,
