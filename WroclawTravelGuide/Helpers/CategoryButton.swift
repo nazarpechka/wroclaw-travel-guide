@@ -7,13 +7,14 @@
 
 import SwiftUI
 
-struct CategoryButton: View {
+struct CategoryButton<TargetView: View>: View {
     var image: Image
     var label: String
     var backgroundColor: Color
+    var destination: TargetView
     
     var body: some View {
-        NavigationLink(destination: Text("Hello")) {
+        NavigationLink(destination: destination) {
             VStack {
                 image
                     .resizable()
@@ -43,6 +44,6 @@ struct CategoryButtonStyle: ButtonStyle {
 
 struct CategoryButton_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryButton(image: Image("placeslogo"), label: "Places to visit", backgroundColor: Color("PlacesColor"))
+        CategoryButton(image: Image("placeslogo"), label: "Places to visit", backgroundColor: Color("PlacesColor"), destination: Text("Test"))
     }
 }

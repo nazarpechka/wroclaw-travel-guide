@@ -21,12 +21,14 @@ struct HomePage: View {
                         CategoryButton(
                             image: Image("placeslogo"),
                             label: "Places to visit",
-                            backgroundColor: Color("PlacesColor"))
+                            backgroundColor: Color("PlacesColor"),
+                            destination: PlacesToVisit())
                         
                         CategoryButton(
                             image: Image("yourstaylogo"),
                             label: "Your stay",
-                            backgroundColor: Color("YourStayColor"))
+                            backgroundColor: Color("YourStayColor"),
+                            destination: Text("test"))
                         
                     }
                     
@@ -34,12 +36,14 @@ struct HomePage: View {
                         CategoryButton(
                             image: Image("foodlogo"),
                             label: "Food",
-                            backgroundColor: Color("FoodColor"))
+                            backgroundColor: Color("FoodColor"),
+                            destination: Text("test"))
                         
                         CategoryButton(
                             image: Image("shoppinglogo"),
                             label: "Shopping",
-                            backgroundColor: Color("ShoppingColor"))
+                            backgroundColor: Color("ShoppingColor"),
+                            destination: Text("test"))
                     }
                 }
                 

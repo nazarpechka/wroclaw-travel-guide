@@ -14,6 +14,8 @@
 		E91AB911272475E600FD7889 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AB910272475E600FD7889 /* HomePage.swift */; };
 		E91AB9132724800800FD7889 /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AB9122724800700FD7889 /* CategoryButton.swift */; };
 		E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9581918272AC60400275B59 /* WeatherInfo.swift */; };
+		E99BC6FC272B0507000F1ACC /* PlacesToVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC6FB272B0507000F1ACC /* PlacesToVisit.swift */; };
+		E99BC6FE272B0528000F1ACC /* PlacesToVisitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC6FD272B0528000F1ACC /* PlacesToVisitRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E91AB910272475E600FD7889 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		E91AB9122724800700FD7889 /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
 		E9581918272AC60400275B59 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		E99BC6FB272B0507000F1ACC /* PlacesToVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesToVisit.swift; sourceTree = "<group>"; };
+		E99BC6FD272B0528000F1ACC /* PlacesToVisitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesToVisitRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				E91AB9042724738500FD7889 /* ContentView.swift */,
 				E91AB910272475E600FD7889 /* HomePage.swift */,
+				E99BC6FB272B0507000F1ACC /* PlacesToVisit.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			children = (
 				E91AB9122724800700FD7889 /* CategoryButton.swift */,
 				E9581918272AC60400275B59 /* WeatherInfo.swift */,
+				E99BC6FD272B0528000F1ACC /* PlacesToVisitRow.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 				E91AB9132724800800FD7889 /* CategoryButton.swift in Sources */,
 				E91AB911272475E600FD7889 /* HomePage.swift in Sources */,
 				E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */,
+				E99BC6FC272B0507000F1ACC /* PlacesToVisit.swift in Sources */,
 				E91AB9032724738500FD7889 /* WroclawTravelGuideApp.swift in Sources */,
+				E99BC6FE272B0528000F1ACC /* PlacesToVisitRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
