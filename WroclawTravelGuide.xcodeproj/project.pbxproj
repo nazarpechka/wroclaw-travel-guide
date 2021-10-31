@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0829EFB1272D4A9B00B83ACC /* ShoppingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829EFB0272D4A9B00B83ACC /* ShoppingPage.swift */; };
+		0829EFB3272D4AB600B83ACC /* ShoppingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829EFB2272D4AB600B83ACC /* ShoppingButton.swift */; };
 		E91AB9032724738500FD7889 /* WroclawTravelGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AB9022724738500FD7889 /* WroclawTravelGuideApp.swift */; };
 		E91AB9052724738500FD7889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AB9042724738500FD7889 /* ContentView.swift */; };
 		E91AB9072724738800FD7889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91AB9062724738800FD7889 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0829EFB0272D4A9B00B83ACC /* ShoppingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingPage.swift; sourceTree = "<group>"; };
+		0829EFB2272D4AB600B83ACC /* ShoppingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingButton.swift; sourceTree = "<group>"; };
 		E91AB8FF2724738500FD7889 /* Wroclaw Travel Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wroclaw Travel Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91AB9022724738500FD7889 /* WroclawTravelGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WroclawTravelGuideApp.swift; sourceTree = "<group>"; };
 		E91AB9042724738500FD7889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 				E91AB9042724738500FD7889 /* ContentView.swift */,
 				E91AB910272475E600FD7889 /* HomePage.swift */,
 				E99BC6FB272B0507000F1ACC /* PlacesToVisit.swift */,
+				0829EFB0272D4A9B00B83ACC /* ShoppingPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 				E91AB9122724800700FD7889 /* CategoryButton.swift */,
 				E9581918272AC60400275B59 /* WeatherInfo.swift */,
 				E99BC6FD272B0528000F1ACC /* PlacesToVisitRow.swift */,
+				0829EFB2272D4AB600B83ACC /* ShoppingButton.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			files = (
 				E91AB9052724738500FD7889 /* ContentView.swift in Sources */,
 				E91AB9132724800800FD7889 /* CategoryButton.swift in Sources */,
+				0829EFB3272D4AB600B83ACC /* ShoppingButton.swift in Sources */,
+				0829EFB1272D4A9B00B83ACC /* ShoppingPage.swift in Sources */,
 				E91AB911272475E600FD7889 /* HomePage.swift in Sources */,
 				E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */,
 				E99BC6FC272B0507000F1ACC /* PlacesToVisit.swift in Sources */,
