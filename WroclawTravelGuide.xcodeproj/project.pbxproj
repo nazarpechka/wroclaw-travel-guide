@@ -17,6 +17,7 @@
 		E953C0582736DEC700FE1A37 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953C0572736DEC700FE1A37 /* Attraction.swift */; };
 		E953C05A2736E01600FE1A37 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953C0592736E01600FE1A37 /* ModelData.swift */; };
 		E953C05D2736E09200FE1A37 /* attractionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = E953C05C2736E09200FE1A37 /* attractionsData.json */; };
+		E953C05F2736F9A500FE1A37 /* AttractionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953C05E2736F9A500FE1A37 /* AttractionDetail.swift */; };
 		E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9581918272AC60400275B59 /* WeatherInfo.swift */; };
 		E99BC6FC272B0507000F1ACC /* AttractionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC6FB272B0507000F1ACC /* AttractionList.swift */; };
 		E99BC6FE272B0528000F1ACC /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC6FD272B0528000F1ACC /* AttractionRow.swift */; };
@@ -34,6 +35,7 @@
 		E953C0572736DEC700FE1A37 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		E953C0592736E01600FE1A37 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		E953C05C2736E09200FE1A37 /* attractionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = attractionsData.json; sourceTree = "<group>"; };
+		E953C05E2736F9A500FE1A37 /* AttractionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDetail.swift; sourceTree = "<group>"; };
 		E9581918272AC60400275B59 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
 		E99BC6FB272B0507000F1ACC /* AttractionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionList.swift; sourceTree = "<group>"; };
 		E99BC6FD272B0528000F1ACC /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				E99BC6FB272B0507000F1ACC /* AttractionList.swift */,
 				E99BC6FD272B0528000F1ACC /* AttractionRow.swift */,
+				E953C05E2736F9A500FE1A37 /* AttractionDetail.swift */,
 			);
 			path = Attractions;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */,
 				E99BC6FC272B0507000F1ACC /* AttractionList.swift in Sources */,
 				E953C05A2736E01600FE1A37 /* ModelData.swift in Sources */,
+				E953C05F2736F9A500FE1A37 /* AttractionDetail.swift in Sources */,
 				E91AB9032724738500FD7889 /* WroclawTravelGuideApp.swift in Sources */,
 				E99BC6FE272B0528000F1ACC /* AttractionRow.swift in Sources */,
 			);

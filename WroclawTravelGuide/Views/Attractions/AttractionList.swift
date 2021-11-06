@@ -14,7 +14,8 @@ struct AttractionList: View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 20) {
                 ForEach(modelData.attractions) { attraction in
-                    NavigationLink(destination: Text("Hello")) {
+                    NavigationLink(
+                        destination: AttractionDetail(attraction: attraction)) {
                         AttractionRow(attraction: attraction)
                     }
                 }

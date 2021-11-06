@@ -15,7 +15,7 @@ struct AttractionRow: View {
             attraction.image
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(minWidth: 344, maxWidth: .infinity, minHeight: 135, maxHeight: 135)
+                .frame(minWidth: 344, maxWidth: 428, minHeight: 135, maxHeight: 135)
             
             LinearGradient(gradient: Gradient(colors: [Color("dark-gradient"), Color.black.opacity(0.0)]), startPoint: .bottom,
                            endPoint: .top)
@@ -33,7 +33,7 @@ struct AttractionRow: View {
                 
             }
         }
-        .frame(minWidth: 344, maxWidth: .infinity, minHeight: 135, maxHeight: 135)
+        .frame(minWidth: 344, maxWidth: 428, minHeight: 135, maxHeight: 135)
         .cornerRadius(15)
         .shadow(color: Color("default-shadow"), radius: 5, x: 5, y: 10)
     }
