@@ -8,21 +8,27 @@
 import SwiftUI
 
 struct AttractionList: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
-        NavigationView {
-            VStack {
-                AttractionRow(image: Image("Rectangle 22"), label: "Market Square")
-                
-                Spacer()
+        ScrollView(showsIndicators: false) {
+            ForEach(modelData.attractions) { attraction in
+                NavigationLink(destination: Text("Hello")) {
+                    AttractionRow(attraction: attraction)
+                }
             }
         }
         .navigationBarTitle(Text("Places to visit"), displayMode: .inline)
-        .padding()
+        .padding(.horizontal)
+        .padding(.bottom)
+        .edgesIgnoringSafeArea(.bottom)
+        
     }
 }
 
 struct AttractionList_Previews: PreviewProvider {
     static var previews: some View {
         AttractionList()
+            .environmentObject(ModelData())
     }
 }

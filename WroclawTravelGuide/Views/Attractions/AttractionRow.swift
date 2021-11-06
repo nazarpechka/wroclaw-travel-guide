@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct AttractionRow: View {
-    var image: Image
-    var label: String
+    var attraction: Attraction
     
     var body: some View {
         ZStack() {
-            image
+            attraction.image
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(minWidth: 344, maxWidth: .infinity, minHeight: 135, maxHeight: 135)
@@ -24,7 +23,7 @@ struct AttractionRow: View {
             VStack {
                 Spacer()
                 HStack {
-                    Text(label)
+                    Text(attraction.name)
                         .font(.headline)
                         .foregroundColor(.white)
                     Spacer()
@@ -41,6 +40,6 @@ struct AttractionRow: View {
 
 struct AttractionRow_Previews: PreviewProvider {
     static var previews: some View {
-        AttractionRow(image: Image("Rectangle 22"), label: "Market Square")
+        AttractionRow(attraction: ModelData().attractions[0])
     }
 }
