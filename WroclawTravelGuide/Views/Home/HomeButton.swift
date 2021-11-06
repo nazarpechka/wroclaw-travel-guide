@@ -37,7 +37,7 @@ struct HomeButtonStyle: ButtonStyle {
             .frame(maxWidth: .infinity, minHeight: 150)
             .background(backgroundColor)
             .cornerRadius(15)
-            .shadow(color: Color("shadow-color"), radius: 5, x: 5, y: 10)
+            .shadow(color: Color("button-shadow-color"), radius: 5, x: 5, y: 10)
             .scaleEffect(configuration.isPressed ? 0.95 : 1)
     }
 }

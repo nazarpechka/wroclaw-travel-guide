@@ -32,7 +32,7 @@ struct ShoppingMallButtonStyle: ButtonStyle {
         configuration.label
             .cornerRadius(15)
             .shadow(color: shadowColor, radius: 25, x: 0, y: 10)
-            .scaleEffect(configuration.isPressed ? 0.9 : 1)
+            .scaleEffect(configuration.isPressed ? 0.95 : 1)
     }
 }
 

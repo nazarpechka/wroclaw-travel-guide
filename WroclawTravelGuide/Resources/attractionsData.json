@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Market Square",
+        "imageName": "market-square"
+    },
+    {
+        "id": 2,
+        "name": "Centennial Hall",
+        "imageName": "centennial-hall"
+    },
+    {
+        "id": 3,
+        "name": "Panorama Racławska",
+        "imageName": "panorama-raclawska"
+    },
+    {
+        "id": 4,
+        "name": "Ostrów Tumski",
+        "imageName": "ostrow-tumski"
+    },
+    {
+        "id": 5,
+        "name": "Wroclaw's Dwarfs",
+        "imageName": "wroclaws-dwarfs"
+    },
+    {
+        "id": 6,
+        "name": "Hydropolis",
+        "imageName": "hydropolis"
+    },
+    {
+        "id": 7,
+        "name": "Hydropolis",
+        "imageName": "hydropolis"
+    },
+    {
+        "id": 8,
+        "name": "Hydropolis",
+        "imageName": "hydropolis"
+    },
+]

@@ -12,46 +12,47 @@ struct ShoppingMallList: View {
         VStack(spacing: 20) {
             HStack(spacing: 20) {
                 ShoppingMallButton(
-                    image: Image("pasaz_logo"),
-                    shadowColor: Color("PasazShadow")
+                    image: Image("pasaz-logo"),
+                    shadowColor: Color("pasaz-shadow")
                 )
                 
                 ShoppingMallButton(
-                    image: Image("wroclavia_logo"),
-                    shadowColor: Color("WroclaviaShadow")
-                )
-                
-            }
-            
-            HStack(spacing: 20) {
-                ShoppingMallButton(
-                    image: Image("arkady_logo"),
-                    shadowColor: Color("ArkadyShadow")
-                )
-                
-                ShoppingMallButton(
-                    image: Image("magnolia_logo"),
-                    shadowColor: Color("DefaultShadow")
+                    image: Image("wroclavia-logo"),
+                    shadowColor: Color("wroclavia-shadow")
                 )
                 
             }
             
             HStack(spacing: 20) {
                 ShoppingMallButton(
-                    image: Image("dominikanska_logo"),
-                    shadowColor: Color("DefaultShadow")
+                    image: Image("arkady-logo"),
+                    shadowColor: Color("arkady-shadow")
                 )
                 
                 ShoppingMallButton(
-                    image: Image("renoma_logo"),
-                    shadowColor: Color("DefaultShadow")
+                    image: Image("magnolia-logo"),
+                    shadowColor: Color("default-shadow")
+                )
+                
+            }
+            
+            HStack(spacing: 20) {
+                ShoppingMallButton(
+                    image: Image("dominikanska-logo"),
+                    shadowColor: Color("default-shadow")
+                )
+                
+                ShoppingMallButton(
+                    image: Image("renoma-logo"),
+                    shadowColor: Color("default-shadow")
                 )
                 
             }
         
             Spacer()
         }
-        .padding(.top, 35)
+        .navigationBarTitle(Text("Shopping Malls"))
+        .padding()
     }
 }
 

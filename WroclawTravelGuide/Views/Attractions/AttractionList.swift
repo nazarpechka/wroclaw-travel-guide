@@ -12,15 +12,16 @@ struct AttractionList: View {
     
     var body: some View {
         ScrollView(showsIndicators: false) {
-            ForEach(modelData.attractions) { attraction in
-                NavigationLink(destination: Text("Hello")) {
-                    AttractionRow(attraction: attraction)
+            VStack(spacing: 20) {
+                ForEach(modelData.attractions) { attraction in
+                    NavigationLink(destination: Text("Hello")) {
+                        AttractionRow(attraction: attraction)
+                    }
                 }
             }
+            .padding()
         }
-        .navigationBarTitle(Text("Places to visit"), displayMode: .inline)
-        .padding(.horizontal)
-        .padding(.bottom)
+        .navigationBarTitle(Text("Places to visit"))
         .edgesIgnoringSafeArea(.bottom)
         
     }
