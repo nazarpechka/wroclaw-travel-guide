@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ShoppingMallList: View {
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 30) {
             HStack(spacing: 20) {
                 ShoppingMallButton(
                     image: Image("pasaz-logo"),
@@ -20,7 +20,6 @@ struct ShoppingMallList: View {
                     image: Image("wroclavia-logo"),
                     shadowColor: Color("wroclavia-shadow")
                 )
-                
             }
             
             HStack(spacing: 20) {
@@ -33,7 +32,6 @@ struct ShoppingMallList: View {
                     image: Image("magnolia-logo"),
                     shadowColor: Color("default-shadow")
                 )
-                
             }
             
             HStack(spacing: 20) {
@@ -46,7 +44,6 @@ struct ShoppingMallList: View {
                     image: Image("renoma-logo"),
                     shadowColor: Color("default-shadow")
                 )
-                
             }
         
             Spacer()

@@ -10,6 +10,7 @@ import Combine
 
 final class ModelData: ObservableObject {
     @Published var attractions: [Attraction] = load("attractionsData.json")
+    @Published var malls: [Mall] = load("mallsData.json")
 }
 
 

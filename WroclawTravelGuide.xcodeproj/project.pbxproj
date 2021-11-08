@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0829EFB1272D4A9B00B83ACC /* ShoppingMallList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829EFB0272D4A9B00B83ACC /* ShoppingMallList.swift */; };
 		0829EFB3272D4AB600B83ACC /* ShoppingMallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829EFB2272D4AB600B83ACC /* ShoppingMallButton.swift */; };
+		089D631D273966BC002CCFB4 /* ShoppingMallDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089D631C273966BC002CCFB4 /* ShoppingMallDetail.swift */; };
+		089D632327396A77002CCFB4 /* mallsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 089D632227396A77002CCFB4 /* mallsData.json */; };
+		089D632527396E28002CCFB4 /* Mall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089D632427396E28002CCFB4 /* Mall.swift */; };
 		E91AB9032724738500FD7889 /* WroclawTravelGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91AB9022724738500FD7889 /* WroclawTravelGuideApp.swift */; };
 		E91AB9072724738800FD7889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91AB9062724738800FD7889 /* Assets.xcassets */; };
 		E91AB90A2724738800FD7889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91AB9092724738800FD7889 /* Preview Assets.xcassets */; };
@@ -26,6 +29,9 @@
 /* Begin PBXFileReference section */
 		0829EFB0272D4A9B00B83ACC /* ShoppingMallList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallList.swift; sourceTree = "<group>"; };
 		0829EFB2272D4AB600B83ACC /* ShoppingMallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallButton.swift; sourceTree = "<group>"; };
+		089D631C273966BC002CCFB4 /* ShoppingMallDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallDetail.swift; sourceTree = "<group>"; };
+		089D632227396A77002CCFB4 /* mallsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mallsData.json; sourceTree = "<group>"; };
+		089D632427396E28002CCFB4 /* Mall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mall.swift; sourceTree = "<group>"; };
 		E91AB8FF2724738500FD7889 /* Wroclaw Travel Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wroclaw Travel Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91AB9022724738500FD7889 /* WroclawTravelGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WroclawTravelGuideApp.swift; sourceTree = "<group>"; };
 		E91AB9062724738800FD7889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WroclawTravelGuide/Assets.xcassets; sourceTree = SOURCE_ROOT; };
@@ -114,6 +120,7 @@
 			children = (
 				0829EFB0272D4A9B00B83ACC /* ShoppingMallList.swift */,
 				0829EFB2272D4AB600B83ACC /* ShoppingMallButton.swift */,
+				089D631C273966BC002CCFB4 /* ShoppingMallDetail.swift */,
 			);
 			path = "Shopping malls";
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 			children = (
 				E953C0572736DEC700FE1A37 /* Attraction.swift */,
 				E953C0592736E01600FE1A37 /* ModelData.swift */,
+				089D632427396E28002CCFB4 /* Mall.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				E953C05C2736E09200FE1A37 /* attractionsData.json */,
+				089D632227396A77002CCFB4 /* mallsData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -204,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E91AB90A2724738800FD7889 /* Preview Assets.xcassets in Resources */,
+				089D632327396A77002CCFB4 /* mallsData.json in Resources */,
 				E953C05D2736E09200FE1A37 /* attractionsData.json in Resources */,
 				E91AB9072724738800FD7889 /* Assets.xcassets in Resources */,
 			);
@@ -224,6 +234,8 @@
 				E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */,
 				E99BC6FC272B0507000F1ACC /* AttractionList.swift in Sources */,
 				E953C05A2736E01600FE1A37 /* ModelData.swift in Sources */,
+				089D631D273966BC002CCFB4 /* ShoppingMallDetail.swift in Sources */,
+				089D632527396E28002CCFB4 /* Mall.swift in Sources */,
 				E953C05F2736F9A500FE1A37 /* AttractionDetail.swift in Sources */,
 				E91AB9032724738500FD7889 /* WroclawTravelGuideApp.swift in Sources */,
 				E99BC6FE272B0528000F1ACC /* AttractionRow.swift in Sources */,
@@ -358,7 +370,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WroclawTravelGuide/Preview Content\"";
-				DEVELOPMENT_TEAM = R6Y48XL847;
+				DEVELOPMENT_TEAM = DQL436LF73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -390,7 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WroclawTravelGuide/Preview Content\"";
-				DEVELOPMENT_TEAM = R6Y48XL847;
+				DEVELOPMENT_TEAM = DQL436LF73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -10,10 +10,11 @@ import SwiftUI
 struct ShoppingMallButton: View {
     var image: Image
     var shadowColor: Color
+    @EnvironmentObject var modelData: ModelData
 
     var body: some View {
         
-        NavigationLink(destination: Text("Hello")) {
+        NavigationLink(destination: ShoppingMallDetail(mall: ModelData().malls[0])) {
             VStack {
                 image
                     .resizable()
@@ -39,6 +40,6 @@ struct ShoppingMallButtonStyle: ButtonStyle {
 
 struct ShoppingMallButton_Previews: PreviewProvider {
     static var previews: some View {
-        ShoppingMallButton(image: Image("dominikanska_logo"), shadowColor: Color("ShadowColor"))
+        ShoppingMallButton(image: Image("dominikanska-logo"), shadowColor: Color("default-shadow"))
     }
 }
