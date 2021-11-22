@@ -36,7 +36,7 @@ struct HomeView: View {
                             image: Image("food-icon"),
                             label: "Food",
                             backgroundColor: Color("food-color"),
-                            destination: Text("test"))
+                            destination: RestaurantsList())
                         
                         HomeButton(
                             image: Image("shopping-icon"),
