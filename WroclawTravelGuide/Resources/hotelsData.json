@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "The Granary",
+        "price": "398",
+        "stars": 4,
+        "reviews": "125",
+        "imageName": "Granary"
+    },
+    {
+        "id": 2,
+        "name": "The Granary",
+        "price": "398",
+        "stars": 4,
+        "reviews": "125",
+        "imageName": "Granary"
+    },
+    {
+        "id": 3,
+        "name": "The Granary",
+        "price": "398",
+        "stars": 4,
+        "reviews": "125",
+        "imageName": "Granary"
+    },
+    {
+        "id": 4,
+        "name": "The Granary",
+        "price": "398",
+        "stars": 4,
+        "reviews": "125",
+        "imageName": "Granary"
+    },
+    {
+        "id": 5,
+        "name": "The Granary",
+        "price": "398",
+        "stars": 4,
+        "reviews": "125",
+        "imageName": "Granary"
+    }
+]
