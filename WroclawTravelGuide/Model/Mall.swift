@@ -13,6 +13,16 @@ struct Mall: Hashable, Codable, Identifiable {
     var name: String
     var description: String
     
+    private var iconName: String
+    var icon: Image {
+        Image(iconName)
+    }
+    
+    private var shadowColor: String
+    var shadow: Color {
+        Color(shadowColor)
+    }
+    
     private var imageName: String
     var image: Image {
         Image(imageName)

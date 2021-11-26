@@ -18,31 +18,35 @@ struct HomeView: View {
                 
                 VStack(spacing: 20) {
                     HStack(spacing: 20) {
-                        HomeButton(
-                            image: Image("places-icon"),
-                            label: "Places to visit",
-                            backgroundColor: Color("places-color"),
-                            destination: AttractionList())
+                        NavigationLink(destination: AttractionList()) {
+                            HomeButton(
+                                image: Image("places-icon"),
+                                label: "Places to visit",
+                                backgroundColor: Color("places-color"))
+                        }
                         
-                        HomeButton(
-                            image: Image("yourstay-icon"),
-                            label: "Your stay",
-                            backgroundColor: Color("yourstay-color"),
-                            destination: Text("test"))
+                        NavigationLink(destination: Text("Test")) {
+                            HomeButton(
+                                image: Image("yourstay-icon"),
+                                label: "Your stay",
+                                backgroundColor: Color("yourstay-color"))
+                        }
                     }
                     
                     HStack(spacing: 20) {
-                        HomeButton(
-                            image: Image("food-icon"),
-                            label: "Food",
-                            backgroundColor: Color("food-color"),
-                            destination: RestaurantsList())
+                        NavigationLink(destination: RestaurantsList()) {
+                            HomeButton(
+                                image: Image("food-icon"),
+                                label: "Food",
+                                backgroundColor: Color("food-color"))
+                        }
                         
-                        HomeButton(
-                            image: Image("shopping-icon"),
-                            label: "Shopping",
-                            backgroundColor: Color("shopping-color"),
-                            destination: ShoppingMallList())
+                        NavigationLink(destination: ShoppingMallList()) {
+                            HomeButton(
+                                image: Image("shopping-icon"),
+                                label: "Shopping",
+                                backgroundColor: Color("shopping-color"))
+                        }
                     }
                 }
                 
@@ -51,11 +55,10 @@ struct HomeView: View {
                 
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
                 
-                
                 Spacer()
             }
             .padding()
-            .navigationBarTitle("Home")
+            .navigationBarTitle("")
             .navigationBarHidden(true)
         }
     }

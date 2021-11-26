@@ -17,46 +17,38 @@ struct AttractionDetail: View {
                     Image("market-square-full")
                         .resizable()
                         .scaledToFill()
-                        
                     
                 }
                 .padding(0)
-                .ignoresSafeArea(.all)
-                .frame(maxWidth: .infinity, maxHeight: 313)
+                .frame(maxWidth: .infinity, maxHeight: 300)
                 
-                VStack(alignment: .leading) {
-                    Text(attraction.name)
-                        .font(.largeTitle)
-                    
-                    HStack {
-                        Image(systemName: "clock")
-                        Text("1 hour")
+                Group {
+                    VStack(alignment: .leading) {
+                        Text(attraction.name)
+                            .font(.largeTitle)
                         
-                        Spacer()
+                        HStack {
+                            Image(systemName: "clock")
+                            Text("1 hour")
+                            
+                            Spacer()
+                            
+                            Text("Currently open")
+                                .foregroundColor(.green)
+                        }
                         
-                        Text("Currently open")
-                            .foregroundColor(.green)
                     }
                     
-                }
-                .padding()
-                
-                VStack {
                     Text(attraction.description)
                 }
-                .padding()
-                
-                
-                
+                .padding(.horizontal)
+
                 Spacer()
             }
         }
-        .ignoresSafeArea(.all)
+        .edgesIgnoringSafeArea(.top)
         
-        
-        
-        
-        
+    
     }
 }
 
