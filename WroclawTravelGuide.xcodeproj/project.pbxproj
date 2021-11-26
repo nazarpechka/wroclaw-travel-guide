@@ -12,11 +12,11 @@
 		08901E6F2751196500B9B0CE /* HotelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08901E6E2751196500B9B0CE /* HotelRow.swift */; };
 		08901E74275119F900B9B0CE /* hotelsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 08901E73275119F900B9B0CE /* hotelsData.json */; };
 		08901E7627511AAC00B9B0CE /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08901E7527511AAC00B9B0CE /* Hotel.swift */; };
-		08901E78275129D200B9B0CE /* HotelsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08901E77275129D200B9B0CE /* HotelsList.swift */; };
+		08901E78275129D200B9B0CE /* HotelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08901E77275129D200B9B0CE /* HotelList.swift */; };
 		089D631D273966BC002CCFB4 /* ShoppingMallDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089D631C273966BC002CCFB4 /* ShoppingMallDetail.swift */; };
 		089D632327396A77002CCFB4 /* mallsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 089D632227396A77002CCFB4 /* mallsData.json */; };
 		089D632527396E28002CCFB4 /* Mall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089D632427396E28002CCFB4 /* Mall.swift */; };
-		08D9B0C4274C061900347D49 /* RestaurantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B0C3274C061900347D49 /* RestaurantsList.swift */; };
+		08D9B0C4274C061900347D49 /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9B0C3274C061900347D49 /* RestaurantList.swift */; };
 		08F9B82E2744EEC2009EA2C3 /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F9B82D2744EEC2009EA2C3 /* RestaurantRow.swift */; };
 		08F9B8302744EF36009EA2C3 /* restaurantsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 08F9B82F2744EF36009EA2C3 /* restaurantsData.json */; };
 		08F9B8322744EFFD009EA2C3 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F9B8312744EFFD009EA2C3 /* Restaurant.swift */; };
@@ -40,11 +40,11 @@
 		08901E6E2751196500B9B0CE /* HotelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelRow.swift; sourceTree = "<group>"; };
 		08901E73275119F900B9B0CE /* hotelsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hotelsData.json; sourceTree = "<group>"; };
 		08901E7527511AAC00B9B0CE /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
-		08901E77275129D200B9B0CE /* HotelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsList.swift; sourceTree = "<group>"; };
+		08901E77275129D200B9B0CE /* HotelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelList.swift; sourceTree = "<group>"; };
 		089D631C273966BC002CCFB4 /* ShoppingMallDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallDetail.swift; sourceTree = "<group>"; };
 		089D632227396A77002CCFB4 /* mallsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mallsData.json; sourceTree = "<group>"; };
 		089D632427396E28002CCFB4 /* Mall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mall.swift; sourceTree = "<group>"; };
-		08D9B0C3274C061900347D49 /* RestaurantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsList.swift; sourceTree = "<group>"; };
+		08D9B0C3274C061900347D49 /* RestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
 		08F9B82D2744EEC2009EA2C3 /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
 		08F9B82F2744EF36009EA2C3 /* restaurantsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurantsData.json; sourceTree = "<group>"; };
 		08F9B8312744EFFD009EA2C3 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				08901E6E2751196500B9B0CE /* HotelRow.swift */,
-				08901E77275129D200B9B0CE /* HotelsList.swift */,
+				08901E77275129D200B9B0CE /* HotelList.swift */,
 			);
 			path = Hotels;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				08F9B82D2744EEC2009EA2C3 /* RestaurantRow.swift */,
-				08D9B0C3274C061900347D49 /* RestaurantsList.swift */,
+				08D9B0C3274C061900347D49 /* RestaurantList.swift */,
 			);
 			path = Restaurants;
 			sourceTree = "<group>";
@@ -276,12 +276,12 @@
 				08F9B8322744EFFD009EA2C3 /* Restaurant.swift in Sources */,
 				08F9B82E2744EEC2009EA2C3 /* RestaurantRow.swift in Sources */,
 				E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */,
-				08D9B0C4274C061900347D49 /* RestaurantsList.swift in Sources */,
+				08D9B0C4274C061900347D49 /* RestaurantList.swift in Sources */,
 				08901E6F2751196500B9B0CE /* HotelRow.swift in Sources */,
 				E99BC6FC272B0507000F1ACC /* AttractionList.swift in Sources */,
 				E953C05A2736E01600FE1A37 /* ModelData.swift in Sources */,
 				08901E7627511AAC00B9B0CE /* Hotel.swift in Sources */,
-				08901E78275129D200B9B0CE /* HotelsList.swift in Sources */,
+				08901E78275129D200B9B0CE /* HotelList.swift in Sources */,
 				089D631D273966BC002CCFB4 /* ShoppingMallDetail.swift in Sources */,
 				089D632527396E28002CCFB4 /* Mall.swift in Sources */,
 				E953C05F2736F9A500FE1A37 /* AttractionDetail.swift in Sources */,

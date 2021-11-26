@@ -11,43 +11,43 @@ struct HotelRow: View {
     var hotel: Hotel
 
     var body: some View {
-        ZStack {
-            Color.white
+        HStack(spacing: 0) {
+            hotel.image
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100, height: 100)
+                .clipped()
             
-            HStack(spacing:20) {
-                hotel.image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 100, height: 100)
-                
-                VStack {
-                    HStack {
-                        Text(hotel.name)
-                            .font(.headline)
-                        
-                        Spacer()
-                        
-                        ForEach(1...hotel.stars, id: \.self) {
-                            star in Image(systemName: "star.fill").foregroundColor(.yellow).frame(width: 12, height: 12)
-                        }
-                    }
+            VStack {
+                HStack {
+                    Text(hotel.name)
+                        .font(.headline)
                     
                     Spacer()
                     
-                    HStack {
-                        Text("\(hotel.reviews) reviews")
-                        
-                        Spacer()
-                        
-                        Text("\(hotel.price) PLN")
+                    ForEach(1...hotel.stars, id: \.self) {
+                        star in Image(systemName: "star.fill").foregroundColor(.yellow).frame(width: 12, height: 12)
                     }
                 }
-                .padding(10)
+                
+                Spacer()
+                
+                HStack {
+                    Text("\(hotel.reviews) reviews")
+                    
+                    Spacer()
+                    
+                    Text("\(hotel.price) PLN")
+                }
             }
+            .padding(.horizontal, 10)
+            .padding(.vertical, 5)
         }
-        .frame(width: 344, height: 100)
+        .foregroundColor(.black)
+        .background(Color.white)
+        .frame(maxWidth: .infinity, maxHeight: 100)
         .cornerRadius(15)
-        .shadow(color: Color("default-shadow"), radius: 15, x: 5, y: 10)
+        .shadow(color: Color("default-shadow"), radius: 10, x: 5, y: 10)
     }
 }
 

@@ -1,5 +1,5 @@
 //
-//  HotelsList.swift
+//  HotelList.swift
 //  WroclawTravelGuide
 //
 //  Created by Sofia Malyshok on 26/11/2021.
@@ -7,30 +7,29 @@
 
 import SwiftUI
 
-struct HotelsList: View {
+struct HotelList: View {
     @EnvironmentObject var modelData: ModelData
     
     var body: some View {
         ScrollView(showsIndicators: false) {
-            VStack(spacing: 20) {
+            VStack(spacing: 30) {
                 ForEach(modelData.hotels) { hotel in
                     NavigationLink(
                         destination: Link("Move to hotel", destination:URL(string:"https://pasibus.pl/en/")!)) {
-                        HotelRow(hotel: hotel)
-                    }
+                            HotelRow(hotel: hotel)
+                        }
                 }
             }
             .padding()
         }
-        .foregroundColor(.black)
         .navigationBarTitle(Text("Hotels"))
         .edgesIgnoringSafeArea(.bottom)
     }
 }
 
-struct HotelsList_Previews: PreviewProvider {
+struct HotelList_Previews: PreviewProvider {
     static var previews: some View {
-        HotelsList()
+        HotelList()
             .environmentObject(ModelData())
     }
 }

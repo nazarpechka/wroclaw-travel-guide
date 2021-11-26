@@ -14,9 +14,9 @@ struct ShoppingMallButton: View {
         mall.icon
             .resizable()
             .scaledToFit()
-            .frame(width: 160, height: 160)
+            .frame(maxWidth: 160, maxHeight: 160)
             .cornerRadius(15)
-            .shadow(color: mall.shadow, radius: 25, x: 0, y: 10)
+            .shadow(color: mall.shadow, radius: 10, x: 0, y: 10)
     }
 }
 

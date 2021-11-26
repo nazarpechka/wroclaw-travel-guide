@@ -17,4 +17,9 @@ struct Attraction: Hashable, Codable, Identifiable {
     var image: Image {
         Image(imageName)
     }
+    
+    private var fullImageName: String
+    var fullImage: Image {
+        Image(fullImageName)
+    }
 }

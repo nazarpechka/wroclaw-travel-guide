@@ -17,6 +17,7 @@ struct RestaurantRow: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 100, height: 100)
+                    .clipped()
 
                 VStack(alignment: .leading) {
                     HStack {

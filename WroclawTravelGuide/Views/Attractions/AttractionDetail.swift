@@ -14,12 +14,11 @@ struct AttractionDetail: View {
         ScrollView {
             VStack(spacing: 25) {
                 ZStack {
-                    Image("market-square-full")
+                    attraction.fullImage
                         .resizable()
                         .scaledToFill()
                     
                 }
-                .padding(0)
                 .frame(maxWidth: .infinity, maxHeight: 300)
                 
                 Group {
@@ -47,8 +46,6 @@ struct AttractionDetail: View {
             }
         }
         .edgesIgnoringSafeArea(.top)
-        
-    
     }
 }
 

@@ -25,7 +25,7 @@ struct HomeView: View {
                                 backgroundColor: Color("places-color"))
                         }
                         
-                        NavigationLink(destination: Text("Test")) {
+                        NavigationLink(destination: HotelList()) {
                             HomeButton(
                                 image: Image("yourstay-icon"),
                                 label: "Your stay",
@@ -34,7 +34,7 @@ struct HomeView: View {
                     }
                     
                     HStack(spacing: 20) {
-                        NavigationLink(destination: RestaurantsList()) {
+                        NavigationLink(destination: RestaurantList()) {
                             HomeButton(
                                 image: Image("food-icon"),
                                 label: "Food",
