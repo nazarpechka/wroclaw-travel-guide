@@ -14,10 +14,7 @@ struct HotelList: View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 30) {
                 ForEach(modelData.hotels) { hotel in
-                    NavigationLink(
-                        destination: Link("Move to hotel", destination:URL(string:"https://pasibus.pl/en/")!)) {
-                            HotelRow(hotel: hotel)
-                        }
+                    HotelRow(hotel: hotel)
                 }
             }
             .padding()

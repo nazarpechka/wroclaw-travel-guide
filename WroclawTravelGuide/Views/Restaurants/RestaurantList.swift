@@ -14,10 +14,7 @@ struct RestaurantList: View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 30) {
                 ForEach(modelData.restaurants) { restaurant in
-                    NavigationLink(
-                        destination: Link("Move to restaurant", destination:URL(string:"https://pasibus.pl/en/")!)) {
-                            RestaurantRow(restaurant: restaurant)
-                        }
+                    RestaurantRow(restaurant: restaurant)
                 }
             }
             .padding()

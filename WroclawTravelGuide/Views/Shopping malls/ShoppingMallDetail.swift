@@ -34,16 +34,9 @@ struct ShoppingMallDetail: View {
                         print("Open shop map button is pressed")
                     } label: {
                         Text("Open shops map")
-                            .foregroundColor(.black)
-                            .padding()
-                            .background(
-                                RoundedRectangle(cornerRadius: 15)
-                                    .foregroundColor(.white)
-                                    .frame(minWidth: 300, maxWidth: .infinity, maxHeight: 40)
-                                    .cornerRadius(15)
-                                    .shadow(color: Color("default-shadow"), radius: 10, x: 0, y: 10)
-                            )
+                            
                     }
+                    .buttonStyle(GenericButton())
                     
                     Text(mall.description)
                 }

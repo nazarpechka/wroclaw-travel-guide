@@ -11,43 +11,45 @@ struct RestaurantRow: View {
     var restaurant: Restaurant
     
     var body: some View {
-        ZStack {
-            HStack(spacing: 0) {
-                restaurant.image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 100, height: 100)
-                    .clipped()
-
-                VStack(alignment: .leading) {
-                    HStack {
-                        Text(restaurant.name)
-                            .font(.headline)
+        Link(destination: URL(string: restaurant.url)!) {
+            ZStack {
+                HStack(spacing: 0) {
+                    restaurant.image
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 100, height: 100)
+                        .clipped()
+                    
+                    VStack(alignment: .leading) {
+                        HStack {
+                            Text(restaurant.name)
+                                .font(.headline)
+                            Spacer()
+                            Text(restaurant.price)
+                                .font(.headline)
+                        }
+                        
                         Spacer()
-                        Text(restaurant.price)
-                            .font(.headline)
+                        
+                        Text(restaurant.type)
+                        
+                        HStack {
+                            Text(restaurant.adress)
+                            Spacer()
+                            Text(restaurant.distance)
+                        }
+                        
                     }
-                    
-                    Spacer()
-                    
-                    Text(restaurant.type)
-                    
-                    HStack {
-                        Text(restaurant.adress)
-                        Spacer()
-                        Text(restaurant.distance)
-                    }
-                    
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 5)
                 }
-                .padding(.horizontal, 10)
-                .padding(.vertical, 5)
             }
+            .foregroundColor(.black)
+            .background(Color.white)
+            .frame(maxWidth: .infinity, maxHeight: 100)
+            .cornerRadius(15)
+            .shadow(color: Color("default-shadow"), radius: 10, x: 5, y: 10)
         }
-        .foregroundColor(.black)
-        .background(Color.white)
-        .frame(maxWidth: .infinity, maxHeight: 100)
-        .cornerRadius(15)
-        .shadow(color: Color("default-shadow"), radius: 10, x: 5, y: 10)
     }
     
     struct RestaurantRow_Previews: PreviewProvider {

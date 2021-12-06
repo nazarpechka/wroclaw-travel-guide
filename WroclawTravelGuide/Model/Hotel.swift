@@ -19,5 +19,7 @@ struct Hotel: Hashable, Codable, Identifiable {
     var image: Image {
         Image(imageName)
     }
+    
+    var url: String
 }
 

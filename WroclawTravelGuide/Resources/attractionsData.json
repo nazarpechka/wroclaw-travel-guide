@@ -4,55 +4,87 @@
         "name": "Market Square",
         "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "market-square",
-        "fullImageName": "market-square-full"
+        "fullImageName": "market-square-full",
+        "coordinates": {
+            "longitude": 17.059548971179865,
+            "latitude": 51.1128683002513,
+        },
     },
     {
         "id": 2,
         "name": "Centennial Hall",
         "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "centennial-hall",
-        "fullImageName": "market-square-full"
+        "fullImageName": "market-square-full",
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
     },
     {
         "id": 3,
         "name": "Panorama Racławska",
         "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "panorama-raclawska",
-        "fullImageName": "market-square-full"
+        "fullImageName": "market-square-full",
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
     },
     {
         "id": 4,
         "name": "Ostrów Tumski",
         "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "ostrow-tumski",
-        "fullImageName": "market-square-full"
+        "fullImageName": "market-square-full",
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
     },
     {
         "id": 5,
         "name": "Wroclaw's Dwarfs",
         "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "wroclaws-dwarfs",
-        "fullImageName": "market-square-full"
+        "fullImageName": "market-square-full",
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
     },
     {
         "id": 6,
         "name": "Hydropolis",
         "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "hydropolis",
-        "fullImageName": "market-square-full"
+        "fullImageName": "market-square-full",
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
     },
     {
         "id": 7,
         "name": "Hydropolis",
         "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "hydropolis",
-        "fullImageName": "market-square-full"
+        "fullImageName": "market-square-full",
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
     },
     {
         "id": 8,
         "name": "Hydropolis",
         "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "hydropolis",
-        "fullImageName": "market-square-full"
+        "fullImageName": "market-square-full",
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
     },
 ]

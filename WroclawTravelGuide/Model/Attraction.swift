@@ -7,6 +7,8 @@
 
 import Foundation
 import SwiftUI
+import CoreLocation
+import MapKit
 
 struct Attraction: Hashable, Codable, Identifiable {
     var id: Int
@@ -21,5 +23,17 @@ struct Attraction: Hashable, Codable, Identifiable {
     private var fullImageName: String
     var fullImage: Image {
         Image(fullImageName)
+    }
+    
+    private var coordinates: Coordinates
+    var locationCoordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(
+            latitude: coordinates.latitude,
+            longitude: coordinates.longitude)
+    }
+    
+    struct Coordinates: Hashable, Codable {
+        var latitude: Double
+        var longitude: Double
     }
 }

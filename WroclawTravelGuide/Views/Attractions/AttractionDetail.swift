@@ -39,6 +39,13 @@ struct AttractionDetail: View {
                     }
                     
                     Text(attraction.description)
+                    
+                    Link("Open in Maps", destination:URL(string:"comgooglemaps://?saddr=&daddr=\(attraction.locationCoordinate.latitude),\(attraction.locationCoordinate.longitude)")!)
+                        .buttonStyle(GenericButton())
+                    
+                    MapView(coordinate: attraction.locationCoordinate)
+                        .frame(height: 300)
+                        .cornerRadius(5)
                 }
                 .padding(.horizontal)
 

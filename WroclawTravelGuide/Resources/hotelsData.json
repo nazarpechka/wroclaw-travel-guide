@@ -5,7 +5,8 @@
         "price": "398",
         "stars": 4,
         "reviews": "125",
-        "imageName": "Granary"
+        "imageName": "Granary",
+        "url": "https://pasibus.pl/en/",
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "price": "398",
         "stars": 4,
         "reviews": "125",
-        "imageName": "Granary"
+        "imageName": "Granary",
+        "url": "https://pasibus.pl/en/",
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "price": "398",
         "stars": 4,
         "reviews": "125",
-        "imageName": "Granary"
+        "imageName": "Granary",
+        "url": "https://pasibus.pl/en/",
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "price": "398",
         "stars": 4,
         "reviews": "125",
-        "imageName": "Granary"
+        "imageName": "Granary",
+        "url": "https://pasibus.pl/en/",
     },
     {
         "id": 5,
@@ -37,6 +41,7 @@
         "price": "398",
         "stars": 4,
         "reviews": "125",
-        "imageName": "Granary"
+        "imageName": "Granary",
+        "url": "https://pasibus.pl/en/",
     }
 ]
