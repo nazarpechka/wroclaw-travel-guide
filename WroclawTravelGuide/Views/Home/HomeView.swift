@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HomeView: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
@@ -61,7 +63,11 @@ struct HomeView: View {
             .navigationBarTitle("")
             .navigationBarHidden(true)
         }
+        .onAppear() {
+            modelData.locationManager.startUpdating()
+        }
     }
+        
 }
 
 struct HomeView_Previews: PreviewProvider {

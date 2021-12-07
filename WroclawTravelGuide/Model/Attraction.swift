@@ -36,4 +36,6 @@ struct Attraction: Hashable, Codable, Identifiable {
         var latitude: Double
         var longitude: Double
     }
+    
+    var visitTime: Int
 }

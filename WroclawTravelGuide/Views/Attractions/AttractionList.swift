@@ -10,6 +10,7 @@ import SwiftUI
 struct AttractionList: View {
     @EnvironmentObject var modelData: ModelData
     
+    
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 20) {

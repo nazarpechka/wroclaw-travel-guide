@@ -20,6 +20,8 @@ struct GenericButton: ButtonStyle {
                     .cornerRadius(15)
                     .shadow(color: Color("default-shadow"), radius: 10, x: 0, y: 10)
             )
+            .scaleEffect(configuration.isPressed ? 1.2 : 1)
+            .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
     }
     
 }

@@ -2,89 +2,85 @@
     {
         "id": 1,
         "name": "Market Square",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "\tThe Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\n\tSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\n\tIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\n\tThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
         "imageName": "market-square",
         "fullImageName": "market-square-full",
         "coordinates": {
-            "longitude": 17.059548971179865,
-            "latitude": 51.1128683002513,
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
         },
+        "visitTime": 60
     },
     {
         "id": 2,
         "name": "Centennial Hall",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "\tCentennial Hall was recognised as one of the greatest architectonic achievements of the 20th century.\n\tIt was designed to serve the citizens of Wrocław and the guests visiting the capital of Lower Silesia. The monumental building was opened in 1913 on the 100th anniversary of the Battle of Leipzig, won by the anti-French coalition against Napoleon Bonaparte. On this occasion, Wrocław hosted the Centennial Exhibition. Max Berg, the then city architect, designed a massive exhibition hall built with the use of the novel reinforced concrete technology. The dome of the Hall spans 65m and the building is 42m high. The main hall is surrounded by the corridors. It can fit 10 thousand people.\n\tThe multifunctional space, unconventional construction, interesting and spacious location are only a few of the Halls assets. The Centennial Hall (Hala Stulecia) is currently one of the most wanted places to organise exhibitions, conferences, congresses, cultural and sporting events from Poland and from abroad.\n\tIts significance raised considerably in 2006 when the Hall became a part of UNESCO World Heritage List.",
         "imageName": "centennial-hall",
-        "fullImageName": "market-square-full",
+        "fullImageName": "centennial-hall-full",
         "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
+            "longitude": 17.077260860120557,
+            "latitude": 51.10685701145063
         },
+        "visitTime": 60
     },
     {
         "id": 3,
         "name": "Panorama Racławska",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "\tThe painting present the Battle of Racławice in April 1794, in which Poles won over Russians. The monumental picture is 114m long and 15m high.\n\tIt was the idea of Jan Styka, a painter from Lvov, who invited among others Wojciech Kossak, Tadeusz Popiel, Teodor Axentowicz, Włodzimierz Tetmajer to work on the painting. The work took 9 months to finish. A rotunda with Panorama of the Battle of Racławice (Panorama Racławicka), built in Stryjeński Park, became one of the attractions of Lvov. The technology applied by the authors can be compared to the contemporary 3D technology. Special, panoramic perspective, lighting and scenography constructed in front of the picture make it look multidimensional.\n\tAfter World War II the Panorama of the Battle of Racławice came to Wrocław. For many years it was hidden in storeroom, mainly for political reasons - it shows the victory of Poles against Russians, and back then Poland was under the Soviet Union’s influence.\n\tNot until 1980 the works on the new rotunda started, the painting could be seen after 1985. Among the visitors were the Pope John Paul II and the Queen of the Netherlands, Beatrix. In 1987 the prime minister of China Zhao Ziyang was impressed by Panorama of the Battle of Racławice. Two years later, the first Chinese panorama was created, even bigger than the one in Wrocław. It presents the victory of the communists over the army of Kuomitang in 1948. Panorama became a popular tool of promotion of the most important events in the history of communist China. In the next years, over ten panoramas were created.\n\tDuring the visit, the viewers can listen to the history of the painting and the events presented in 16 languages (including Korean, Japanese, Croatian and Esperanto). For blind people there is an audio description available.",
         "imageName": "panorama-raclawska",
-        "fullImageName": "market-square-full",
+        "fullImageName": "panorama-raclawska-full",
         "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
+            "longitude": 17.044340417830018,
+            "latitude": 51.11013206791506
         },
+        "visitTime": 120
     },
     {
         "id": 4,
         "name": "Ostrów Tumski",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "\tSurrounded by the river Oder, the old burgh, the origin of the city, has fantastic architecture.\n\tThe greatest ones are the Gothic St. John Baptist cathedral, rebuilt after World War II and Holy Cross church. There is the Archdiocese Museum there, the oldest historically continuous museum in Wrocław - for over 100 years it has gathered sacral art, which was excluded from cult use and has great historical and artistic value. Among the exhibits one can find Henrykowska Book from 13th-14th century, which contains the first sentence written in Polish.\n\tThe first constructions on Ostrów Tumski were built in the 10th century by the Piast dynasty, and were made from wood. The first building from solid material was St. Martin's chapel, built probably at the beginning of the eleventh century by Benedictine monks. Not long after the first cathedral was raised, in place of the small church. Religious buildings appeared in Ostrów Tumski because during the Congress of Gniezno in AD 1000, it was decided to create a bishopric in Wrocław.",
         "imageName": "ostrow-tumski",
-        "fullImageName": "market-square-full",
+        "fullImageName": "ostrow-tumski-full",
         "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
+            "longitude": 17.046747919821847,
+            "latitude": 51.11459813866181
         },
+        "visitTime": 60
     },
     {
         "id": 5,
         "name": "Wroclaw's Dwarfs",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "\tThey are the most friendly inhabitants of Wrocław – they are kind and helpful, particularly towards children. Here you can find out more about over 300 dwarves living in the capital of Lower Silesia.\n\tThere are many legends concerning the origin of Wrocław dwarves. According to one legend, it dates back to the old centuries when the Oder Pixie (Chochlik Odrzański) arrived in Wrocław. Other stories refer to the 1980s, when a smiling dwarf became the symbol of young people from the Orange Alternative anti-communist movement who organised peaceful happenings on the streets of Wrocław.\n\tToday the streets, squares and backyards of Wrocław are inhabited by largely more than 300 dwarves. They are very friendly, and they arouse enthusiasm particularly among the youngest group of Wrocław inhabitants and guests. They like being photographed.\n\tYou can find representatives of many professions around them. Already their names suggest what they do: Bankuś (a banker), Bibliofil (an avid reader), Botanik (a botanician), Hohelka (a dwarf with a big ladle ready to serve guests in the Jacek i Agatka bar), or Chlapibrzuch and Moczypięta residing near the Aquapark. There are also dwarves that you can catch in real-life situations, such as Lunatyk (a sleepwalker), Miłostek (a very romantic dwarf with two hearts), Ogorzałek and Opiłek (a duo of heavy drinkers), Opiekunek (children’s best friend and guardian) and Krasnomaleństwo (a small dwarf looked after by Opiekunek). And when you are near the National Forum of Music, you can even come across an orchestra of dwarves. Listen carefully - they will play your favourite tune for sure.\n\tWhen walking down the dwarves’ route, you must not miss Papa Krasnal (Senior Dwarf) near the Przejście Świdnickie passage and an entrance to their land at the backyard of the Jaś house close to the Market Square. Maybe you will guess the secret password that will open the gates.\n\t",
         "imageName": "wroclaws-dwarfs",
-        "fullImageName": "market-square-full",
+        "fullImageName": "wroclaws-dwarfs-full",
         "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
         },
+        "visitTime": 60
     },
     {
         "id": 6,
         "name": "Hydropolis",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "Hydropolis, centre of knowledge about water, was opened in December 2015. It is the only object like this in Poland and one of the few in the world.\n\tHydropolis, centre of knowledge about water, was opened in December 2015. The new attraction of Wrocław is located in the old building in ul. Na Grobli. It is an old clean water tank, built in 1893. The attraction is for everyone, regardless of age. Modern multimedia ideas were applied during the construction. The whole exhibition has over 4 thousand square metres.\n\tIn the room “The planet of water” we can learn about different theories of the origins of water in the Universe. The next rooms present a bit closer but equally interesting areas. One can get inside a bathyscaphe “Trieste”, in which two daredevils dived into the Mariana Trench in 1960. Right next to it, we can observe the creatures living in the oceans and seas, from several-metre long sharks to microbes.\n\tEvery room has multimedia tablets with interesting details about ground-breaking discoveries of the underwater world, the nature of water and its use in the human life. We can also see the theme of water in religion and art.\n\tThe interactive table with maps of Wrocław, for example during the Millennium Flood or the map of the city waterpipes, attracts both older and younger visitors.",
         "imageName": "hydropolis",
-        "fullImageName": "market-square-full",
+        "fullImageName": "hydropolis-full",
         "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
+            "longitude": 17.05660205336612,
+            "latitude": 51.104250315126265,
         },
+        "visitTime": 60
     },
     {
         "id": 7,
-        "name": "Hydropolis",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
-        "imageName": "hydropolis",
-        "fullImageName": "market-square-full",
+        "name": "National Museum in Wrocław",
+        "description": "In the building in Powstańców Warszawy Square there are several permanent exhibitions, but some of the collections can be seen outside the Museum’s building.\n\tTwo of them are devoted to the medieval art - Silesian Stone Sculpture of 12-16th century (in renovation) and Silesian Art of 14-16th century (1st floor).  The expositions of the Polish Art of 17-19th century and European Art 15-20th century are on the 2nd floor.\n\tThe most valuable pieces of art are: “Madonna with Jesus and St. John” by Agnolo Bronzino, “Winter landscape with ice skates and bird trap” by Pieter Bruegel the Younger and “Portrait of a Boy” by Jean Chardin.\n\tSome exhibits are in the old ducal residence, today’s Museum of Silesian Piasts in Brzeg, where the permanent exhibition Silesian Art of 15-18th century is presented. An important part of the Museum’s collection (furniture, portraits) is in the old City Hall, where the Museum of Municipal Art is located - it belongs to the Wrocław City Museum.\n\t",
+        "imageName": "national-museum",
+        "fullImageName": "national-museum-full",
         "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
+            "longitude": 17.04746796931672,
+            "latitude": 51.11086972992188
         },
-    },
-    {
-        "id": 8,
-        "name": "Hydropolis",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
-        "imageName": "hydropolis",
-        "fullImageName": "market-square-full",
-        "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
-        },
+        "visitTime": 60
     },
 ]

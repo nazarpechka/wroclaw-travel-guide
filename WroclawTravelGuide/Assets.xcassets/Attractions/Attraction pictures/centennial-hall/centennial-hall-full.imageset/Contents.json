@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "market-square-full.png",
+      "filename" : "centennial-hall-full.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "market-square-full@2x.png",
+      "filename" : "centennial-hall-full@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "market-square-full@3x.png",
+      "filename" : "centennial-hall-full@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

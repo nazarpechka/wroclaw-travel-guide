@@ -7,13 +7,17 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 final class ModelData: ObservableObject {
     @Published var attractions: [Attraction] = load("attractionsData.json")
     @Published var malls: [Mall] = load("mallsData.json")
     @Published var restaurants: [Restaurant] = load("restaurantsData.json")
     @Published var hotels: [Hotel] = load("hotelsData.json")
+    @ObservedObject var locationManager: LocationManager = LocationManager()
 }
+
+
 
 
 func load<T: Decodable>(_ filename: String) -> T {

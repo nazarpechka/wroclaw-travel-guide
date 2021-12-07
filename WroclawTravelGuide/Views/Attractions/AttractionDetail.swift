@@ -9,6 +9,9 @@ import SwiftUI
 
 struct AttractionDetail: View {
     var attraction: Attraction
+    var timeString: String {
+        attraction.visitTime >= 60 ? "\(attraction.visitTime / 60) hour" : "\(attraction.visitTime) min"
+    }
     
     var body: some View {
         ScrollView {
@@ -17,9 +20,9 @@ struct AttractionDetail: View {
                     attraction.fullImage
                         .resizable()
                         .scaledToFill()
-                    
                 }
                 .frame(maxWidth: .infinity, maxHeight: 300)
+                .cornerRadius(25, corners: [.bottomLeft, .bottomRight])
                 
                 Group {
                     VStack(alignment: .leading) {
@@ -28,7 +31,7 @@ struct AttractionDetail: View {
                         
                         HStack {
                             Image(systemName: "clock")
-                            Text("1 hour")
+                            Text(timeString)
                             
                             Spacer()
                             
