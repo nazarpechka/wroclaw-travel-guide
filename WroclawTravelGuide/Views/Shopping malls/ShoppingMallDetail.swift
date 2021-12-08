@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ShoppingMallDetail: View {
     var mall: Mall
+    @State var showDetailView = false
     
     var body: some View {
         ScrollView {
@@ -25,14 +26,15 @@ struct ShoppingMallDetail: View {
                             .font(.largeTitle)
                         
                         HStack {
-                            Text("Currently closed")
-                                .foregroundColor(.red)
+                            Text(mall.isOpenNow() ? "Currently open" : "Currently closed")
+                                .foregroundColor(mall.isOpenNow() ? .green : .red)
                             Spacer()
                         }
+                        
                     }
                     
                     Button {
-                        print("Open shop map button is pressed")
+                        self.showDetailView = true
                     } label: {
                         Text("Open shops map")
                     }
@@ -40,7 +42,7 @@ struct ShoppingMallDetail: View {
                     
                     Text(mall.description)
                     
-                    Link("Open in Maps", destination:URL(string:"maps://?saddr=&daddr=\(mall.locationCoordinate.latitude),\(mall.locationCoordinate.longitude)")!)
+                    Link("Open in Maps", destination:URL(string:"comgooglemaps://?saddr=&daddr=\(mall.locationCoordinate.latitude),\(mall.locationCoordinate.longitude)")!)
                         .buttonStyle(GenericButton())
                     
                     MapView(coordinate: mall.locationCoordinate)
@@ -53,7 +55,21 @@ struct ShoppingMallDetail: View {
             }
         }
         .ignoresSafeArea(.all)
+        .sheet(isPresented: self.$showDetailView) {
+            VStack {
+                Text("Shop map")
+                    .font(.title)
+                
+                Spacer()
+            }
+            .padding()
+            
+        }
+        .onAppear() {
+            print(mall.workingHours)
+        }
     }
+        
 }
 
 struct ShoppingMallDetail_Previews: PreviewProvider {
