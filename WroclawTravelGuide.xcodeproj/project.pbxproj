@@ -446,7 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WroclawTravelGuide/Preview Content\"";
-				DEVELOPMENT_TEAM = R6Y48XL847;
+				DEVELOPMENT_TEAM = DQL436LF73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WroclawTravelGuide/Info.plist;
@@ -463,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Pechevystyi.WroclawTravelGuide";
+				PRODUCT_BUNDLE_IDENTIFIER = WroclawTravelGuide;
 				PRODUCT_NAME = "Wroclaw Travel Guide";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WroclawTravelGuide/Preview Content\"";
-				DEVELOPMENT_TEAM = R6Y48XL847;
+				DEVELOPMENT_TEAM = DQL436LF73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WroclawTravelGuide/Info.plist;
@@ -497,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nazar-Pechevystyi.WroclawTravelGuide";
+				PRODUCT_BUNDLE_IDENTIFIER = WroclawTravelGuide;
 				PRODUCT_NAME = "Wroclaw Travel Guide";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

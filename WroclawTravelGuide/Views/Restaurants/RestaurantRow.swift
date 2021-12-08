@@ -54,7 +54,7 @@ struct RestaurantRow: View {
     
     struct RestaurantRow_Previews: PreviewProvider {
         static var previews: some View {
-            RestaurantRow(restaurant: ModelData().restaurants[0])
+            RestaurantRow(restaurant: ModelData().restaurants[1])
         }
     }
 }

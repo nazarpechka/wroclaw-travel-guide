@@ -20,7 +20,7 @@ struct HotelRow: View {
                     .clipped()
                 
                 VStack {
-                    HStack {
+                    HStack() {
                         Text(hotel.name)
                             .font(.headline)
                         
