@@ -2,49 +2,97 @@
     {
         "id": 1,
         "name": "Pasaż Grunwaldzki",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "Pasaż Grunwaldzki is a known Wrocław shopping and entertainment centre. The area of 130 000 sq m houses nearly 200 shops, services and restaurants, as well as 11-screen Multikino cinema, a fitness club and a supermarket.\n\tAmong the shops are, e.g. Apart, Yes, W.Kruk, Empik, AB Pictures, Saturn, Matras, the Sony Centre, X-Kom.pl, Inglot, Sephora, Douglas, Home & You, as well as many fashion brands.\n\tThis place is also a friendly and comfortable place for families. Children can enjoy the playground, and play endlessly, while the parents go shopping, under the watchful care of animators. Drivers can use a 1,400 multi-storey indoor parking. The parking lot can be accessed from ul. Sklodowskiej-Curie and ul. Grunwaldzka.",
         "iconName": "pasaz-logo",
         "shadowColor": "pasaz-shadow",
-        "imageName": "pasaz"
+        "imageName": "pasaz",
+        "coordinates": {
+            "longitude": 17.05937408056169,
+            "latitude": 51.1128501098101,
+        },
     },
     {
         "id": 2,
         "name": "Wroclavia",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "Wroclavia is a new, lifestyle shopping center located in the heart of Wrocław, with an offer addressed to all residents of Lower Silesia. Brands that have never been in the city before, flagship stores of Polish and global chains, the largest clothing groups, restaurants and cafes, both from Wrocław and international ones, the first in Wrocław IMAX, a playroom for children, a fitness club and a bus station.\n\tThe distinguishing feature of Wroclavia is extremely careful service, branded with a 4-star quality mark and modern architecture: glazed entrances and roofs, illuminated, three-dimensional elevations, natural forms and materials, and greenery, e.g. in the form of a year-round garden and green walls.",
         "iconName": "wroclavia-logo",
         "shadowColor": "wroclavia-shadow",
-        "imageName": "pasaz"
+        "imageName": "wroclavia",
+        "coordinates": {
+            "longitude": 17.03482493617936,
+            "latitude": 51.096442048974346,
+        },
     },
     {
         "id": 3,
         "name": "Arkady Wroclawskie",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "Arkady Wrocławskie Shopping Centre is located at the very heart of Wrocław. The three-storey centre houses over 110 stores and commercial spaces. The customers can also choose from a variety of 1,100 parking spaces.\n\tThe Shopping Centre also boasts a new fitness centre called \"Fitness Academy\" and Multikino with 10 different cinema auditoriums. The largest attraction of the Centre is its fish tank featuring a shark and a variety of exotic fish. The tank weighs 200 tonnes and is 12 metres tall, 8.5 metres long and 3,5 metres wide",
         "iconName": "arkady-logo",
         "shadowColor": "arkady-shadow",
-        "imageName": "pasaz"
+        "imageName": "arkady",
+        "coordinates": {
+            "longitude": 17.028876271169878,
+            "latitude": 51.10002451995461,
+        },
     },
     {
         "id": 4,
         "name": "Magnolia Park",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "Magnolia Park is the largest shopping, entertainment and recreation centre in Lower Silesia. The shopping centre offers approx. 250 shops, cafés, restaurants and services.\n\tMagnolia is also a modern cinema and a Jatomi Fitness club. Drivers can use the 3 500 free parking spaces.\n\tAmong the many renowned Polish and international brands available today in the Magnolia Park are, e.g.: Aldo, C&A, Decathlon, Denon, ECCO, Esprit, H&M, Home&You, InterSport, KappAhl, New Yorker, Peek&Cloppenburg, Pierre Cardin, Promod, RESERVED, Saturn, TOUS, W. Kruk, Zara, Decathlon, TK Maxx, Helios Cinema, a Castorama home improvement store and a TESCO store, open until midnight. Magnolia Park's offer constantly expands with new brands, new shops, services, boutiques and restaurants.",
         "iconName": "magnolia-logo",
         "shadowColor": "default-shadow",
-        "imageName": "pasaz"
+        "imageName": "magnolia",
+        "coordinates": {
+            "longitude": 16.98966587483538,
+            "latitude": 51.1185712150455,
+        },
     },
     {
         "id": 5,
-        "name": "Dominikanska",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "name": "Galeria Dominikanska",
+        "description": "Galeria Dominikańska Shopping Center - a shopping center located between Plac Dominikański and ul. Czesława and Oławska, in the central part of Wrocław.\n\tThe shopping center was opened on August 17, 2001 and in the same year was distinguished by the Association of Polish Architects with an award in the field of architecture. It was the first foreign investment of the German company ECE, the company is both the developer and manager of this gallery.\n\tWrocław's most accessible and well-known retail centre, Galeria Dominikańska is a mere five minutes east of the main square, meaning you're likely to cross paths with it by accident and you're probably going to get sucked in - as do 13 million people each year. Among the 104 shops (including VAN GRAAF, Reserved, CCC, Max Mara, Kazar, Carrefour, Media Markt, Empik, and an iSpot) you'll also find some restaurants (Pizza Hut, Ohh! Sushi & Grill, Kuchnia Express Marche, Sevi Kebab, Salad Story, LuLuCafe, Green Cafe Nero, Max Premium Burgers, Sphinx), drug stores Sephora and Douglas, and we don't even need to tell you what else because you're most likely already inside.",
         "iconName": "dominikanska-logo",
         "shadowColor": "default-shadow",
-        "imageName": "pasaz"
+        "imageName": "dominikanska",
+        "coordinates": {
+            "longitude": 17.040432129798187,
+            "latitude": 51.108516871713846,
+        },
     },
     {
         "id": 6,
         "name": "Renoma",
-        "description": "The Main Square, or 'Rynek' as it is called in Polish, was laid out way back in the mists of time, in the 13th Century, after the city was razed to the ground by marauding Mongols.\nSince all those years ago the Square has maintained its size and shape, although the grand houses that line every side were constructed and reconstructed with each passing century and hence represent every style from Gothic to Art Nouveau.\nIn actual fact, owing to the almost total destruction of the Market Square in World War II, all of the buildings which you now see are 20th Century reconstructions of their predecessors - painstakingly brought back to life by the Poles after they inherited the city in the wake of the war.\nThe general consensus is that 'they done good', and Wroclaw's Market Square has never looked as resplendent as it does today.",
+        "description": "The Commercial Centre Renoma was built in the end of the 20s. Then, it had uncommonly big surface.\n\tThe commercial centre Wertheim in today’s ul. Świdnicka was built to the design of Hermann Dernburg. It was opened in 1930. This monumental building, based on the trapezoid, was a representation of modern architecture and was the biggest commercial building in Breslau (Wrocław), with the surface of 35 000 m2 and cubage of 160 000 m3. Since the inauguration Wertheim had impressed not only the citizens and guests, but also the then building and construction environment. The commercial centre was successful, but shortly it had to deal with the economic crisis and the consequences of the Nazi’s rise to power.\n\tIn 1945 the building was bombed. It was reopened after three years as the biggest Commercial House in Poland. The name Renoma was chosen through the contest for the readers of Słowo Polskie. In 1977 the building became a listed building as a monumental work of European modernism. In the end of the 90s the building became was privatised. In the years 2005-2009 it was renovated and a new part was built in the place where Hermann Dernburg designed it. The project was finished in 2009 and the inauguration took place on 25th April.\n\tIn Renoma there are over 120 shops and a restaurant area. The building (opened on 2 April 1930) has an extraordinary façade with original gold plating and original statues presenting people from different continents. It symbolises the openness to another human: respect to every person and their views. These values are as important for us as for Wertheim brothers - the founders of the building.",
         "iconName": "renoma-logo",
         "shadowColor": "default-shadow",
-        "imageName": "pasaz"
+        "imageName": "renoma",
+        "coordinates": {
+            "longitude": 17.031276812136028,
+            "latitude": 51.10374678406223,
+        },
+    },
+    {
+        "id": 7,
+        "name": "Sky Tower",
+        "description": "The Commercial Centre Renoma was built in the end of the 20s. Then, it had uncommonly big surface.\n\tThe commercial centre Wertheim in today’s ul. Świdnicka was built to the design of Hermann Dernburg. It was opened in 1930. This monumental building, based on the trapezoid, was a representation of modern architecture and was the biggest commercial building in Breslau (Wrocław), with the surface of 35 000 m2 and cubage of 160 000 m3. Since the inauguration Wertheim had impressed not only the citizens and guests, but also the then building and construction environment. The commercial centre was successful, but shortly it had to deal with the economic crisis and the consequences of the Nazi’s rise to power.\n\tIn 1945 the building was bombed. It was reopened after three years as the biggest Commercial House in Poland. The name Renoma was chosen through the contest for the readers of Słowo Polskie. In 1977 the building became a listed building as a monumental work of European modernism. In the end of the 90s the building became was privatised. In the years 2005-2009 it was renovated and a new part was built in the place where Hermann Dernburg designed it. The project was finished in 2009 and the inauguration took place on 25th April.\n\tIn Renoma there are over 120 shops and a restaurant area. The building (opened on 2 April 1930) has an extraordinary façade with original gold plating and original statues presenting people from different continents. It symbolises the openness to another human: respect to every person and their views. These values are as important for us as for Wertheim brothers - the founders of the building.",
+        "iconName": "sky-tower-logo",
+        "shadowColor": "sky-tower-shadow",
+        "imageName": "sky-tower",
+        "coordinates": {
+            "longitude": 17.019625685153603,
+            "latitude": 51.09449435580113,
+        },
+    },
+    {
+        "id": 8,
+        "name": "Korona",
+        "description": "The Shopping Centre Korona is one of the first multifunctional shopping centres in Poland; here, apart from shopping, you can spend leisure time and relax.\n\tThe centre offers 54 boutiques and medium-size shops; among them are: hypermarket Auchan, Cinema City, Fitness Academy and brands such as CCC, Decathlon, GO Sport, Rossmann and RTV Euro AGD. The entertainment offer includes the mulitiplex CINEMA CITY and the food court area with 12 restaurants. Korona is a family-friendly place, adapted to people with disabilities.",
+        "iconName": "korona-logo",
+        "shadowColor": "default-shadow",
+        "imageName": "korona",
+        "coordinates": {
+            "longitude": 17.087220256976902,
+            "latitude": 51.14228780667613,
+        },
     },
 ]

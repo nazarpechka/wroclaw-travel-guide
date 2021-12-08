@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 import CoreLocation
-import MapKit
 
 struct Attraction: Hashable, Codable, Identifiable {
     var id: Int
@@ -30,11 +29,6 @@ struct Attraction: Hashable, Codable, Identifiable {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
             longitude: coordinates.longitude)
-    }
-    
-    struct Coordinates: Hashable, Codable {
-        var latitude: Double
-        var longitude: Double
     }
     
     var visitTime: Int

@@ -30,6 +30,7 @@
 		E953C05D2736E09200FE1A37 /* attractionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = E953C05C2736E09200FE1A37 /* attractionsData.json */; };
 		E953C05F2736F9A500FE1A37 /* AttractionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953C05E2736F9A500FE1A37 /* AttractionDetail.swift */; };
 		E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9581918272AC60400275B59 /* WeatherInfo.swift */; };
+		E98808142760AF3F004673F4 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98808132760AF3F004673F4 /* Coordinates.swift */; };
 		E99BC6FC272B0507000F1ACC /* AttractionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC6FB272B0507000F1ACC /* AttractionList.swift */; };
 		E99BC6FE272B0528000F1ACC /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC6FD272B0528000F1ACC /* AttractionRow.swift */; };
 		E9E52497275EAF6F00B68DB9 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E52496275EAF6F00B68DB9 /* RoundedCorner.swift */; };
@@ -63,6 +64,7 @@
 		E953C05C2736E09200FE1A37 /* attractionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = attractionsData.json; sourceTree = "<group>"; };
 		E953C05E2736F9A500FE1A37 /* AttractionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDetail.swift; sourceTree = "<group>"; };
 		E9581918272AC60400275B59 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		E98808132760AF3F004673F4 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
 		E99BC6FB272B0507000F1ACC /* AttractionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionList.swift; sourceTree = "<group>"; };
 		E99BC6FD272B0528000F1ACC /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
 		E9E52496275EAF6F00B68DB9 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				08F9B8312744EFFD009EA2C3 /* Restaurant.swift */,
 				08901E7527511AAC00B9B0CE /* Hotel.swift */,
 				E9E52498275EBC9F00B68DB9 /* LocationManager.swift */,
+				E98808132760AF3F004673F4 /* Coordinates.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				E99BC6FC272B0507000F1ACC /* AttractionList.swift in Sources */,
 				E953C05A2736E01600FE1A37 /* ModelData.swift in Sources */,
 				08901E7627511AAC00B9B0CE /* Hotel.swift in Sources */,
+				E98808142760AF3F004673F4 /* Coordinates.swift in Sources */,
 				08901E78275129D200B9B0CE /* HotelList.swift in Sources */,
 				089D631D273966BC002CCFB4 /* ShoppingMallDetail.swift in Sources */,
 				089D632527396E28002CCFB4 /* Mall.swift in Sources */,

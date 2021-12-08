@@ -17,6 +17,7 @@ struct ShoppingMallDetail: View {
                     .resizable()
                     .scaledToFill()
                     .frame(maxWidth: .infinity, maxHeight: 300)
+                    .cornerRadius(25, corners: [.bottomLeft, .bottomRight])
                 
                 VStack(spacing: 25) {
                     VStack(alignment: .leading) {
@@ -34,11 +35,17 @@ struct ShoppingMallDetail: View {
                         print("Open shop map button is pressed")
                     } label: {
                         Text("Open shops map")
-                            
                     }
                     .buttonStyle(GenericButton())
                     
                     Text(mall.description)
+                    
+                    Link("Open in Maps", destination:URL(string:"maps://?saddr=&daddr=\(mall.locationCoordinate.latitude),\(mall.locationCoordinate.longitude)")!)
+                        .buttonStyle(GenericButton())
+                    
+                    MapView(coordinate: mall.locationCoordinate)
+                        .frame(height: 300)
+                        .cornerRadius(5)
                 }
                 .padding(.horizontal)
                 
