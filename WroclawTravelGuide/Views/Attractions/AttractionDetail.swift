@@ -16,13 +16,23 @@ struct AttractionDetail: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 25) {
+                attraction.fullImage
+                    .resizable()
+                    .scaledToFill()
+                    .frame(maxWidth: .infinity, maxHeight: 380)
+                    .cornerRadius(25, corners: [.bottomLeft, .bottomRight])
+                
                 ZStack {
-                    attraction.fullImage
+                    Circle()
+                        .fill(Color.white)
+                        .frame(width: 55, height: 55)
+                    Image(systemName: "heart.fill")
                         .resizable()
-                        .scaledToFill()
+                        .frame(width: 27, height: 27)
+                        .foregroundColor(Color("favourite-icon-color"))
                 }
-                .frame(maxWidth: .infinity, maxHeight: 300)
-                .cornerRadius(25, corners: [.bottomLeft, .bottomRight])
+                .offset(x: 150, y:-55)
+                .shadow(color: Color("default-shadow"), radius: 20, x: 0, y: 10)
                 
                 Group {
                     VStack(alignment: .leading) {
@@ -38,12 +48,11 @@ struct AttractionDetail: View {
                             Text("Currently open")
                                 .foregroundColor(.green)
                         }
-                        
                     }
                     
                     Text(attraction.description)
                     
-                    Link("Open in Maps", destination:URL(string:"maps://?saddr=&daddr=\(attraction.locationCoordinate.latitude),\(attraction.locationCoordinate.longitude)")!)
+                    Link("Open in Maps", destination:URL(string:"comgooglemaps://?saddr=&daddr=\(attraction.locationCoordinate.latitude),\(attraction.locationCoordinate.longitude)")!)
                         .buttonStyle(GenericButton())
                     
                     MapView(coordinate: attraction.locationCoordinate)
@@ -51,8 +60,6 @@ struct AttractionDetail: View {
                         .cornerRadius(5)
                 }
                 .padding(.horizontal)
-
-                Spacer()
             }
         }
         .edgesIgnoringSafeArea(.top)
