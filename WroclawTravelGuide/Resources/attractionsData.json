@@ -9,7 +9,17 @@
             "longitude": 17.031052257657844,
             "latitude": 51.11038707160052
         },
-        "visitTime": 60
+        "visitTime": 60,
+        "workingHours": {
+            "weekday": {
+                "open": 13,
+                "close": 21
+            },
+            "saturday": {
+                "open": 9,
+                "close": 21
+            },
+        }
     },
     {
         "id": 2,
@@ -21,7 +31,17 @@
             "longitude": 17.077260860120557,
             "latitude": 51.10685701145063
         },
-        "visitTime": 60
+        "visitTime": 60,
+        "workingHours": {
+            "weekday": {
+                "open": 9,
+                "close": 21
+            },
+            "saturday": {
+                "open": 9,
+                "close": 21
+            },
+        }
     },
     {
         "id": 3,
@@ -33,7 +53,17 @@
             "longitude": 17.044340417830018,
             "latitude": 51.11013206791506
         },
-        "visitTime": 120
+        "visitTime": 120,
+        "workingHours": {
+            "weekday": {
+                "open": 9,
+                "close": 21
+            },
+            "saturday": {
+                "open": 9,
+                "close": 21
+            },
+        }
     },
     {
         "id": 4,
@@ -45,7 +75,17 @@
             "longitude": 17.046747919821847,
             "latitude": 51.11459813866181
         },
-        "visitTime": 60
+        "visitTime": 60,
+        "workingHours": {
+            "weekday": {
+                "open": 9,
+                "close": 21
+            },
+            "saturday": {
+                "open": 9,
+                "close": 21
+            },
+        }
     },
     {
         "id": 5,
@@ -57,7 +97,17 @@
             "longitude": 17.031052257657844,
             "latitude": 51.11038707160052
         },
-        "visitTime": 60
+        "visitTime": 60,
+        "workingHours": {
+            "weekday": {
+                "open": 9,
+                "close": 21
+            },
+            "saturday": {
+                "open": 9,
+                "close": 21
+            },
+        }
     },
     {
         "id": 6,
@@ -69,7 +119,17 @@
             "longitude": 17.05660205336612,
             "latitude": 51.104250315126265,
         },
-        "visitTime": 60
+        "visitTime": 60,
+        "workingHours": {
+            "weekday": {
+                "open": 9,
+                "close": 21
+            },
+            "saturday": {
+                "open": 9,
+                "close": 21
+            },
+        }
     },
     {
         "id": 7,
@@ -81,6 +141,16 @@
             "longitude": 17.04746796931672,
             "latitude": 51.11086972992188
         },
-        "visitTime": 60
+        "visitTime": 60,
+        "workingHours": {
+            "weekday": {
+                "open": 9,
+                "close": 21
+            },
+            "saturday": {
+                "open": 9,
+                "close": 21
+            },
+        }
     },
 ]

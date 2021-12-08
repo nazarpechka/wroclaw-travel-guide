@@ -5,8 +5,11 @@
         "price": "$",
         "type": "Burgers",
         "adress": "pl.Grunwaldzki 22",
-        "distance": "2.3 km",
         "imageName": "pasibus",
+        "coordinates": {
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
+        },
         "url": "https://pasibus.pl/en/",
     },
     {
@@ -15,8 +18,11 @@
         "price": "$$",
         "type": "Breakfasts",
         "adress": "ul.Świętego Antoniego 2/4",
-        "distance": "2.3 km",
         "imageName": "charlotte",
+        "coordinates": {
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
+        },
         "url": "https://bistrocharlotte.pl/",
     },
     {
@@ -25,8 +31,11 @@
         "price": "$$",
         "type": "Indian food",
         "adress": "ul.Świętego Mikołaja 18",
-        "distance": "2.3 km",
         "imageName": "mango-mama",
+        "coordinates": {
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
+        },
         "url": "http://www.mangomama.pl/",
     },
     {
@@ -35,8 +44,11 @@
         "price": "$$",
         "type": "Pub",
         "adress": "Świętego Mikołaja 8",
-        "distance": "2.3 km",
         "imageName": "doctors-bar",
+        "coordinates": {
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
+        },
         "url": "https://www.facebook.com/Doctors-Bar-226124174506353/",
     },
     {
@@ -45,8 +57,11 @@
         "price": "$$",
         "type": "Cafe",
         "adress": "Kuźnicza 30",
-        "distance": "2.3 km",
         "imageName": "fc",
+        "coordinates": {
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
+        },
         "url": "https://www.facebook.com/fccaffewro/",
     },
     {
@@ -55,8 +70,11 @@
         "price": "$$",
         "type": "Restauraunt",
         "adress": "Ruska 3/4",
-        "distance": "2.3 km",
         "imageName": "pod-latarniami",
+        "coordinates": {
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
+        },
         "url": "https://www.facebook.com/podlatarniami/",
     },
     {
@@ -65,8 +83,11 @@
         "price": "$$",
         "type": "Cafe",
         "adress": "ul. Drobnera 38",
-        "distance": "2.3 km",
         "imageName": "bema",
+        "coordinates": {
+            "longitude": 17.031052257657844,
+            "latitude": 51.11038707160052
+        },
         "url": "https://pl-pl.facebook.com/BemaCafe/",
     },
 ]

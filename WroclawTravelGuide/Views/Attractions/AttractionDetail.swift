@@ -45,8 +45,8 @@ struct AttractionDetail: View {
                             
                             Spacer()
                             
-                            Text("Currently open")
-                                .foregroundColor(.green)
+                            Text(attraction.workingHours.isOpenNow() ? "Currently open" : "Currently closed")
+                                .foregroundColor(attraction.workingHours.isOpenNow() ? .green : .red)
                         }
                     }
                     

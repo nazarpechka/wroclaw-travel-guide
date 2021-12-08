@@ -26,8 +26,8 @@ struct ShoppingMallDetail: View {
                             .font(.largeTitle)
                         
                         HStack {
-                            Text(mall.isOpenNow() ? "Currently open" : "Currently closed")
-                                .foregroundColor(mall.isOpenNow() ? .green : .red)
+                            Text(mall.workingHours.isOpenNow() ? "Currently open" : "Currently closed")
+                                .foregroundColor(mall.workingHours.isOpenNow() ? .green : .red)
                             Spacer()
                         }
                         

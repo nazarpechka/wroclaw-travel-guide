@@ -6,9 +6,25 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct RestaurantRow: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var restaurant: Restaurant
+    var distance: String {
+        
+        let restaurantLocation = CLLocation(latitude: restaurant.locationCoordinate.latitude, longitude: restaurant.locationCoordinate.longitude)
+        let userLocation = modelData.locationManager.lastKnownLocation ?? restaurantLocation
+        let distance = Int(restaurantLocation.distance(from: userLocation))
+        if distance == 0 {
+            return ""
+        } else if distance < 1000 {
+            return "\(distance)m"
+        } else {
+            return "\((100 * Double(distance) / 1000).rounded() / 100)km"
+        }
+    }
     
     var body: some View {
         Link(destination: URL(string: restaurant.url)!) {
@@ -36,7 +52,7 @@ struct RestaurantRow: View {
                         HStack {
                             Text(restaurant.adress)
                             Spacer()
-                            Text(restaurant.distance)
+                            Text(distance)
                         }
                         
                     }

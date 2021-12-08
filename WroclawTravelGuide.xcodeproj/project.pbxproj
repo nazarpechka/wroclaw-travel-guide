@@ -31,6 +31,7 @@
 		E953C05F2736F9A500FE1A37 /* AttractionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953C05E2736F9A500FE1A37 /* AttractionDetail.swift */; };
 		E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9581918272AC60400275B59 /* WeatherInfo.swift */; };
 		E98808142760AF3F004673F4 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98808132760AF3F004673F4 /* Coordinates.swift */; };
+		E98808182760D2F2004673F4 /* WorkingHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98808172760D2F2004673F4 /* WorkingHours.swift */; };
 		E99BC6FC272B0507000F1ACC /* AttractionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC6FB272B0507000F1ACC /* AttractionList.swift */; };
 		E99BC6FE272B0528000F1ACC /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BC6FD272B0528000F1ACC /* AttractionRow.swift */; };
 		E9E52497275EAF6F00B68DB9 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E52496275EAF6F00B68DB9 /* RoundedCorner.swift */; };
@@ -65,6 +66,7 @@
 		E953C05E2736F9A500FE1A37 /* AttractionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDetail.swift; sourceTree = "<group>"; };
 		E9581918272AC60400275B59 /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
 		E98808132760AF3F004673F4 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		E98808172760D2F2004673F4 /* WorkingHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingHours.swift; sourceTree = "<group>"; };
 		E99BC6FB272B0507000F1ACC /* AttractionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionList.swift; sourceTree = "<group>"; };
 		E99BC6FD272B0528000F1ACC /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
 		E9E52496275EAF6F00B68DB9 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				08901E7527511AAC00B9B0CE /* Hotel.swift */,
 				E9E52498275EBC9F00B68DB9 /* LocationManager.swift */,
 				E98808132760AF3F004673F4 /* Coordinates.swift */,
+				E98808172760D2F2004673F4 /* WorkingHours.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				E91AB9132724800800FD7889 /* HomeButton.swift in Sources */,
 				0829EFB3272D4AB600B83ACC /* ShoppingMallButton.swift in Sources */,
 				0829EFB1272D4A9B00B83ACC /* ShoppingMallList.swift in Sources */,
+				E98808182760D2F2004673F4 /* WorkingHours.swift in Sources */,
 				E91AB911272475E600FD7889 /* HomeView.swift in Sources */,
 				E953C0582736DEC700FE1A37 /* Attraction.swift in Sources */,
 				08F9B8322744EFFD009EA2C3 /* Restaurant.swift in Sources */,
@@ -446,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WroclawTravelGuide/Preview Content\"";
-				DEVELOPMENT_TEAM = DQL436LF73;
+				DEVELOPMENT_TEAM = R6Y48XL847;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WroclawTravelGuide/Info.plist;
@@ -463,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WroclawTravelGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = WroclawTravelGuide1;
 				PRODUCT_NAME = "Wroclaw Travel Guide";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WroclawTravelGuide/Preview Content\"";
-				DEVELOPMENT_TEAM = DQL436LF73;
+				DEVELOPMENT_TEAM = R6Y48XL847;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WroclawTravelGuide/Info.plist;
@@ -497,7 +501,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WroclawTravelGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = WroclawTravelGuide1;
 				PRODUCT_NAME = "Wroclaw Travel Guide";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
