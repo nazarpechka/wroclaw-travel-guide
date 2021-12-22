@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "pasibus.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Image.png",
+      "filename" : "pasibus@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "pasibus@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

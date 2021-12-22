@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "pod-latarniami.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "pod-latarniami.jpeg",
+      "filename" : "pod-latarniami@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "pod-latarniami@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

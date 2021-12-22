@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "ibis.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "ibis.jpeg",
+      "filename" : "ibis@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "ibis@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

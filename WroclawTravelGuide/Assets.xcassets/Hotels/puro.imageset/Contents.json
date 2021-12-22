@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "puro.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "puro.jpeg",
+      "filename" : "puro@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "puro@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

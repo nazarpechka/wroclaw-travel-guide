@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0809B7F22770709600E64865 /* FactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0809B7F12770709600E64865 /* FactCard.swift */; };
 		0829EFB1272D4A9B00B83ACC /* ShoppingMallList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829EFB0272D4A9B00B83ACC /* ShoppingMallList.swift */; };
 		0829EFB3272D4AB600B83ACC /* ShoppingMallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829EFB2272D4AB600B83ACC /* ShoppingMallButton.swift */; };
 		08901E6F2751196500B9B0CE /* HotelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08901E6E2751196500B9B0CE /* HotelRow.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0809B7F12770709600E64865 /* FactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactCard.swift; sourceTree = "<group>"; };
 		0829EFB0272D4A9B00B83ACC /* ShoppingMallList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallList.swift; sourceTree = "<group>"; };
 		0829EFB2272D4AB600B83ACC /* ShoppingMallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallButton.swift; sourceTree = "<group>"; };
 		08901E6E2751196500B9B0CE /* HotelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelRow.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				E91AB910272475E600FD7889 /* HomeView.swift */,
 				E91AB9122724800700FD7889 /* HomeButton.swift */,
 				E9581918272AC60400275B59 /* WeatherInfo.swift */,
+				0809B7F12770709600E64865 /* FactCard.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				08F9B8322744EFFD009EA2C3 /* Restaurant.swift in Sources */,
 				E9F805BD275E7D0500FA9189 /* ButtonStyle.swift in Sources */,
 				E9E52499275EBC9F00B68DB9 /* LocationManager.swift in Sources */,
+				0809B7F22770709600E64865 /* FactCard.swift in Sources */,
 				08F9B82E2744EEC2009EA2C3 /* RestaurantRow.swift in Sources */,
 				E9581919272AC60400275B59 /* WeatherInfo.swift in Sources */,
 				08D9B0C4274C061900347D49 /* RestaurantList.swift in Sources */,

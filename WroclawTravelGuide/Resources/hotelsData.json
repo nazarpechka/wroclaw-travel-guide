@@ -6,6 +6,10 @@
         "stars": 4,
         "reviews": "115",
         "imageName": "granary",
+        "coordinates": {
+            "longitude": 17.034640382602266,
+            "latitude":  51.10633797114056
+        },
         "url": "https://www.thegranaryhotel.com/pl",
     },
     {
@@ -15,6 +19,10 @@
         "stars": 4,
         "reviews": "125",
         "imageName": "mercure",
+        "coordinates": {
+            "longitude": 17.03907378260242,
+            "latitude":  51.108739892376654
+        },
         "url": "https://all.accor.com/hotel/3374/index.pl.shtml",
     },
     {
@@ -24,6 +32,10 @@
         "stars": 4,
         "reviews": "97",
         "imageName": "puro",
+        "coordinates": {
+            "longitude": 17.024860511438494,
+            "latitude":  51.10810619394673
+        },
         "url": "https://purohotel.pl/",
     },
     {
@@ -33,6 +45,10 @@
         "stars": 4,
         "reviews": "390",
         "imageName": "park-plaza",
+        "coordinates": {
+            "longitude": 17.03581854027495,
+            "latitude":  51.11741020568663
+        },
         "url": "https://hotelepark.pl/wroclaw",
     },
     {
@@ -42,6 +58,10 @@
         "stars": 5,
         "reviews": "209",
         "imageName": "hilton",
+        "coordinates": {
+            "longitude": 17.043420084455228,
+            "latitude":  51.10842318486081
+        },
         "url": "https://www.hiltonhotels.com/pl_PL/polska/doubletree-by-hilton-hotel-wroclaw/",
     },
     {
@@ -51,6 +71,10 @@
         "stars": 5,
         "reviews": "112",
         "imageName": "bridge",
+        "coordinates": {
+            "longitude": 17.047907567258093,
+            "latitude":  51.11189462015688
+        },
         "url": "https://thebridgewroclaw.pl/",
     },
     {
@@ -60,6 +84,10 @@
         "stars": 3,
         "reviews": "190",
         "imageName": "ibis",
+        "coordinates": {
+            "longitude": 17.024320214412747,
+            "latitude":  51.09875856953012
+        },
         "url": "https://all.accor.com/hotel/A074/index.pl.shtml",
     }
 ]

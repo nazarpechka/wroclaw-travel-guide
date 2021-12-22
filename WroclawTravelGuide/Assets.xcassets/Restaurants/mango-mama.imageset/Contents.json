@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "mango-mama.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "mango-mama.jpeg",
+      "filename" : "mango-mama@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "mango-mama@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

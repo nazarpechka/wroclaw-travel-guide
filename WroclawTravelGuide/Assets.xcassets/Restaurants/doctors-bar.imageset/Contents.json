@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "doctors-bar-1.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "doctors-bar.jpeg",
+      "filename" : "doctors-bar@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "doctors-bar@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

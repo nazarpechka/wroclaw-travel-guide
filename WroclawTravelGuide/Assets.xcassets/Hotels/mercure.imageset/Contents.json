@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "mercure.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "mercure.jpeg",
+      "filename" : "mercure@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "mercure@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }

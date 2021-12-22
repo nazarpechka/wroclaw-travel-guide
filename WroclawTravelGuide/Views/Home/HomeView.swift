@@ -54,8 +54,16 @@ struct HomeView: View {
                 
                 
                 WeatherInfo(image: Image(systemName: "cloud.sun"), label: "Cloudy", temp: 15)
-                
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
+                VStack(){
+                    FactCard(label:"Wroclaw has over 600 gnome sculptures hidden around the city")
+                    FactCard(label:"Wroclaw has one of the oldest restaurants in Europe")
+                    FactCard(label:"Wroclaw has over 112 bridges in the city")
+                    FactCard(label:"Wroclaw is home to the tallest residential building in Polandy")
+                    FactCard(label:"Wroclaw has the second largest Market Square in Poland")
+                    FactCard(label:"There is an UNESCO site in Wrocław")
+                }
+                .padding(0)
+//
                 
                 Spacer()
             }

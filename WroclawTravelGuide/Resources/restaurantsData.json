@@ -7,8 +7,8 @@
         "adress": "pl.Grunwaldzki 22",
         "imageName": "pasibus",
         "coordinates": {
-            "longitude": 17.031052257657844,
-            "latitude": 51.11038707160052
+            "longitude": 17.03217085376627,
+            "latitude":  51.1080049282199
         },
         "url": "https://pasibus.pl/en/",
     },
@@ -20,8 +20,8 @@
         "adress": "ul.Świętego Antoniego 2/4",
         "imageName": "charlotte",
         "coordinates": {
-            "longitude": 17.031052257657844,
-            "latitude": 51.11038707160052
+            "longitude": 17.026054965405123,
+            "latitude":  51.10866806973639
         },
         "url": "https://bistrocharlotte.pl/",
     },
@@ -33,8 +33,8 @@
         "adress": "ul.Świętego Mikołaja 18",
         "imageName": "mango-mama",
         "coordinates": {
-            "longitude": 17.031052257657844,
-            "latitude": 51.11038707160052
+            "longitude": 17.026686113291458,
+            "latitude":  51.11189462015688
         },
         "url": "http://www.mangomama.pl/",
     },
@@ -46,8 +46,8 @@
         "adress": "Świętego Mikołaja 8",
         "imageName": "doctors-bar",
         "coordinates": {
-            "longitude": 17.031052257657844,
-            "latitude": 51.11038707160052
+            "longitude": 17.02907252493029,
+            "latitude": 551.11156977152473
         },
         "url": "https://www.facebook.com/Doctors-Bar-226124174506353/",
     },
@@ -59,8 +59,8 @@
         "adress": "Kuźnicza 30",
         "imageName": "fc",
         "coordinates": {
-            "longitude": 17.031052257657844,
-            "latitude": 51.11038707160052
+            "longitude": 17.034817069110918,
+            "latitude": 51.113260198035015
         },
         "url": "https://www.facebook.com/fccaffewro/",
     },
@@ -72,8 +72,8 @@
         "adress": "Ruska 3/4",
         "imageName": "pod-latarniami",
         "coordinates": {
-            "longitude": 17.031052257657844,
-            "latitude": 51.11038707160052
+            "longitude": 17.02838901143857,
+            "latitude":  51.11025340365415
         },
         "url": "https://www.facebook.com/podlatarniami/",
     },
@@ -85,8 +85,8 @@
         "adress": "ul. Drobnera 38",
         "imageName": "bema",
         "coordinates": {
-            "longitude": 17.031052257657844,
-            "latitude": 51.11038707160052
+            "longitude": 17.040022338422194,
+            "latitude": 51.118264711471646
         },
         "url": "https://pl-pl.facebook.com/BemaCafe/",
     },
