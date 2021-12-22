@@ -53,7 +53,7 @@ struct HomeView: View {
                 }
                 
                 
-                WeatherInfo(image: Image(systemName: "cloud.sun"), label: "Cloudy", temp: 15)
+                WeatherView()
                 VStack(){
                     FactCard(label:"Wroclaw has over 600 gnome sculptures hidden around the city")
                     FactCard(label:"Wroclaw has one of the oldest restaurants in Europe")
