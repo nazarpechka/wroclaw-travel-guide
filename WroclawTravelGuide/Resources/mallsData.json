@@ -35,7 +35,7 @@
         "workingHours": {
             "weekday": {
                 "open": 9,
-                "close": 21
+                "close": 17
             },
             "saturday": {
                 "open": 9,

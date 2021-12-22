@@ -16,23 +16,24 @@ struct AttractionDetail: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 25) {
-                attraction.fullImage
-                    .resizable()
-                    .scaledToFill()
-                    .frame(maxWidth: .infinity, maxHeight: 380)
-                    .cornerRadius(25, corners: [.bottomLeft, .bottomRight])
-                
                 ZStack {
-                    Circle()
-                        .fill(Color.white)
-                        .frame(width: 55, height: 55)
-                    Image(systemName: "heart.fill")
+                    attraction.fullImage
                         .resizable()
-                        .frame(width: 27, height: 27)
-                        .foregroundColor(Color("favourite-icon-color"))
+                        .scaledToFill()
+                        .frame(maxWidth: .infinity, maxHeight: 380)
+                        .cornerRadius(25, corners: [.bottomLeft, .bottomRight])
+                    ZStack {
+                        Circle()
+                            .fill(Color.white)
+                            .frame(width: 55, height: 55)
+                        Image(systemName: "heart.fill")
+                            .resizable()
+                            .frame(width: 27, height: 27)
+                            .foregroundColor(Color("favourite-icon-color"))
+                    }
+                    .offset(x: 150, y:175)
+                    .shadow(color: Color("default-shadow"), radius: 20, x: 0, y: 10)
                 }
-                .offset(x: 150, y:-55)
-                .shadow(color: Color("default-shadow"), radius: 20, x: 0, y: 10)
                 
                 Group {
                     VStack(alignment: .leading) {

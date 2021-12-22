@@ -13,7 +13,6 @@ struct RestaurantRow: View {
     
     var restaurant: Restaurant
     var distance: String {
-        
         let restaurantLocation = CLLocation(latitude: restaurant.locationCoordinate.latitude, longitude: restaurant.locationCoordinate.longitude)
         let userLocation = modelData.locationManager.lastKnownLocation ?? restaurantLocation
         let distance = Int(restaurantLocation.distance(from: userLocation))
