@@ -38,5 +38,7 @@ struct Mall: Hashable, Codable, Identifiable {
     
     var workingHours: WorkingHours
     
+    var shops: [String]
+    
     
 }

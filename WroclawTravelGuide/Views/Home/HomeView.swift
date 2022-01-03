@@ -13,11 +13,11 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
-                
+
                 Text("Wroclaw Travel Guide")
                     .font(.system(.largeTitle, design: .rounded))
-                
-                
+
+
                 VStack(spacing: 20) {
                     HStack(spacing: 20) {
                         NavigationLink(destination: AttractionList()) {
@@ -26,7 +26,7 @@ struct HomeView: View {
                                 label: "Places to visit",
                                 backgroundColor: Color("places-color"))
                         }
-                        
+
                         NavigationLink(destination: HotelList()) {
                             HomeButton(
                                 image: Image("yourstay-icon"),
@@ -34,7 +34,7 @@ struct HomeView: View {
                                 backgroundColor: Color("yourstay-color"))
                         }
                     }
-                    
+
                     HStack(spacing: 20) {
                         NavigationLink(destination: RestaurantList()) {
                             HomeButton(
@@ -42,7 +42,7 @@ struct HomeView: View {
                                 label: "Food",
                                 backgroundColor: Color("food-color"))
                         }
-                        
+
                         NavigationLink(destination: ShoppingMallList()) {
                             HomeButton(
                                 image: Image("shopping-icon"),
@@ -51,8 +51,8 @@ struct HomeView: View {
                         }
                     }
                 }
-                
-                
+
+
                 WeatherView()
                 VStack(){
                     FactCard(label:"Wroclaw has over 600 gnome sculptures hidden around the city")
@@ -60,22 +60,19 @@ struct HomeView: View {
                     FactCard(label:"Wroclaw has over 112 bridges in the city")
                     FactCard(label:"Wroclaw is home to the tallest residential building in Polandy")
                     FactCard(label:"Wroclaw has the second largest Market Square in Poland")
-                    FactCard(label:"There is an UNESCO site in Wrocław")
                 }
                 .padding(0)
-//
-                
+
                 Spacer()
             }
             .padding()
-            .navigationBarTitle("")
             .navigationBarHidden(true)
+            
         }
         .onAppear() {
             modelData.locationManager.startUpdating()
         }
     }
-        
 }
 
 struct HomeView_Previews: PreviewProvider {

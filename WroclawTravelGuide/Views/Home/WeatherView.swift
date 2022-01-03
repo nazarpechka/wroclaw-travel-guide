@@ -21,7 +21,7 @@ struct WeatherView: View {
             }
             .frame(width: 45, height: 45)
             
-            Text("\(modelData.weatherInfo.weatherStatus.main) \(modelData.weatherInfo.temp, specifier: "%.2f")°")
+            Text("\(modelData.weatherInfo.weatherStatus.main) \(Int(modelData.weatherInfo.temp))°")
                 .font(.headline)
         }
     }

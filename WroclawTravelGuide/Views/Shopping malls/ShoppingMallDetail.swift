@@ -57,16 +57,16 @@ struct ShoppingMallDetail: View {
         .ignoresSafeArea(.all)
         .sheet(isPresented: self.$showDetailView) {
             VStack {
-                Text("Shop map")
+                Text("Shops")
                     .font(.title)
                 
+                List(mall.shops.sorted(), id: \.self) { shop in
+                    Text(shop)
+                }
                 Spacer()
             }
-            .padding()
+            .padding(.top)
             
-        }
-        .onAppear() {
-            print(mall.workingHours)
         }
     }
         

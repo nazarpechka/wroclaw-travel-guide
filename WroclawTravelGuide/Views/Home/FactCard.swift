@@ -14,7 +14,7 @@ struct FactCard: View {
                 Image("star")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 10, height: 10)
+                    .frame(width: 20, height: 20)
                     .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 0))
                     
                 

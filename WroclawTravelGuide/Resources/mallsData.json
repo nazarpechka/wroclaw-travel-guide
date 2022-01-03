@@ -19,7 +19,8 @@
                 "open": 9,
                 "close": 21
             },
-        }
+        },
+        "shops": ["Apart","Briju","IQOS","Manso","Mimi","Pandora","Parfois","Prezenciarnia","Samsonite","SMOKE","SWISS","Time Trend","Tous","W. KRUK","YES","Biogo.pl","Centrum Wina","Czas na Herbatę","Delikatesy Tradycja&Jakość","Kule","Nugat - cukiernia i piekarnia","Stacja Chleb","Wytwórnia Pączków","A’La Moda Style","Bershka","Big Star","Bytom","Calzedonia","Cropp","Diverse","Esotiq","Femestage","Gatta","Gee One by ITALIAN FASHION","Gerry Weber","Giacomo Conti","H&M","House","Intimissimi","Lancerto","Lavard","LC WAIKIKI","Lee Wrangler","Levi's","Medicine","Mohito","New Yorker","Octagon","Oysho","Pawo","Pierre Cardin","Pull&Bear","Reserved","Sinsay","Solar","Stradivarius","Taranko","Triumph","Unisono","Vistula","Wólczanka","Zara","Carto Store","Empik","Księgarnia Świat Książki","Media Markt","Rebel Electro","Sony Centre","X-kom","Xiaomi Store","CCC","Deichmann","Ecco","Foot Locker","Kazar Studio","Ochnik","Office Shoes","Ryłko","Sizeer","Vans","Venezia","Wojas","Apteka Super-Pharm","Douglas","DOZ Apteka dbam o zdrowie","Drogerie Natura","Fielmann","Gafas","Hebe","Inglot","Kontigo","NeoNail","Notino","ORGANIQUE","Rossmann","Semilac","Sensi Hemp","Sephora","Soczewki24","SunLoox","Vision Express","Yves Rocher","Ziaja dla Ciebie"],
     },
     {
         "id": 2,
@@ -41,7 +42,8 @@
                 "open": 9,
                 "close": 21
             },
-        }
+        },
+        "shops": ["Adidas","Apart","Bank Pekao SA","BENETTON","Bershka","Beryl","Biedronka","Biuro Parkingu","Body Shop","BUMBUSIE","BYTOM","CALVIN KLEIN","Calzedonia","Carrefour Market ","CCC","Cinema CIty","Courir","Crocs","Cropp","Deichmann","Dom Wina",    "Dominika Młyńczak Ottaviano","Douglas","DUKA","Dworzec Autobusowy","DYSON","Ecco","Ella Boutique","Empik","eobuwie.pl","eSmokingWorld","Esotiq","Esprit","Estee Lauder","Etam","Fikołki","Five o'clock","Flying Tiger Copenhagen","Fonny Funny","Gafas","Getin Bank","Giacomo Conti ","GO Sport","Guess","H&amp;M","H&amp;M Home","HalfPrice","HEBE","Home&amp;You","Homla","House","ING EXPRESS","Inglot","Inmedio","Intimissimi","IQOS","IQOS stoisko","ITAKA","JEAN LOUIS DAVID","JUBITOM LUXURY","Kantor Mennica Złota","Kazar","KSIĘGARNIE ŚWIAT KSIĄŻKI","Kwiaciarnia Orchidea","Lacoste","Lavard","Lee, Wrangler","LEGO","Levi's","Lilou","LINDT","L'OCCITANE EN PROVENCE","Lynx  Optique","MAC","Many Mornings ","Marc O'Polo","Martes Sport","Massimo Dutti","MBANK","MediaMarkt","MEDICINE","Millennium Bank","Mohito","Muscat","Mydlarnia u Franciszka","NEONAIL","Nespresso","NEW BALANCE","NEWBIE","Nike","Okaïdi ","Orange","Orsay","Oysho","Pafoscan Sport","Pandora","Panek Carsharing","Peek &amp; Cloppenburg","Petit Bateau","PLAY","Plus i Polsat Box","Pop Factory","Prezent Marzeń","Puccini","Pull&amp;Bear","Puma","Rainbow ","Reserved","Revnet","Rossmann","RTV EURO AGD","Ryłko","Samsung Brand Store","Semilac","Sephora","Sfera","Shop Dent","SINSAY","Sizeer","Smoke Shop","Smyk","Soczewkomaty","Stradivarius","Swarovski","SWISS","Tally Weijl","Tatuum","Telakces.com / Virgin Mobile ","Tele Magic","Terranova","Timberland","Time Trend","T-Mobile","Tokey","TOMMY HILFIGER","Tous ","Triumph","TUI CENTRUM PODRÓZY","Unique Boutique","Uterque","VERONA","Vision Express","Vistula","W.KRUK","WITTCHEN","WITTCHEN TRAVEL","Wojas","Wólczanka","YES","ZARA","Zara Home","Ziaja","4F","Świat GSM","Świat GSM - stoisko","Bijou Brigitte","CityFit","Cortland Apple Premium Reseller","Denon","Diverse"],
     },
     {
         "id": 3,
@@ -63,7 +65,8 @@
                 "open": 9,
                 "close": 21
             },
-        }
+        },
+        "shops": ["4F Outhorn","50 style","Action","Alles","Apart","Apteka Lekosfera DGA12","Aquael ZOO","Autorska Księgarnia","Banquet","Baroli","BASJA","BBT&amp;Fruit","Bergson","Broadway Group Salon Fryzjerski ","Cartostore","CCC","Cocomo fashion","COSTA COFFEE","Crazy Carts","Czas na Herbatę","Dealz","Develia","Diverse","Douglas Perfumeria","e-Smoking World ","ENEL-MED Centrum Medyczne","Eurospar","EXCHANGE GROUP","Express Oriental","Fitness Academy","Fotocentrum No 1","Gatta","Greenpoint","Grey Wolf","Grycan lody od pokoleń","H&amp;M","Happy Mum","In Medio","Inglot","Inspiracja","IQOS","ITAKA biuro podróży ","KappAhl","Karpicko Cukiernia","KFC","KFD","Klockownia","Kornecki","LH Market","Lulu Cafe","Makarun","Marche kuchnia","Masterkom","mBank","Mc Flek","META","Mikola","Monnari","Naturhouse","Nelia","NeoNail","New Men Style","New Yorker","OH Kino","Olio Bistro&amp;Caffe","Orange","Pasibus","Penti","PEPCO","Pit Bull","Pizza Hut Express","Play","PLUS CYFROWY POLSAT","Pralnia Panda","Quiosque","Rieker","Rossmann","Rtv Euro Agd","Ryłko","Sevi Kebab","Sinsay","Ski Team","Spichlerz Zdrowia","Sushi Master","T-Mobile","Teletorium","Thomas","Toys Box","Trafika Shishka","TUI Centrum Podróży","Vision Express","Vitalium AS","Wax Center","Wittchen","WyjątkowyPrezent.pl","ŻAK Szkoły Policealne","ZOO TEAM"],
     },
     {
         "id": 4,
@@ -85,7 +88,8 @@
                 "open": 9,
                 "close": 21
             },
-        }
+        },
+        "shops": ["By o la la","Bytom","C&A","Cropp","Deni Cler","Ewtex","Giacomo Conti","H&M","House","KappAhl","Kortas","Kubenz","Lavard","Medicine","Molton","Monnari","Ochnik","Olsen","Pako Lorente","Paryżanka Boutique","Patrizia Aryton","Pawo","Peek & Cloppenburg","Piano Fashion","Pretty One","Quiosque","Recman","Reserved","Selectshop","Sinsay","Top Secret","Vissavi","Zara","Bershka","Big Star","C&A","Carry","Diverse","Gerry Weber","Guess","Mohito","New Yorker","Pierre Cardin","Promod","TK-Maxx","Tommy Hilfiger","Vistula","Wólczanka","Wrangler Lee","apia","Ecco","Geox","Salamander","Badura","CCC","Crocs","Deichmann","eobuwie.pl","Gino Rossi","Intershoe","Prima Moda","Ryłko","Venezia","Wojas","Kazar Studio","4F","Decimas","Martes Sport","adidas","Decathlon","INTERSPORT","Jack Wolfskin","Meta","New Balance","Nike","Pafoscan Sport","Reebok","The North Face","WorldBox","Regatta","Design Optyk","Wax Center","Apteka Super-Pharm","Centrum Medyczne","Clinique","Douglas","Gafas","Golden Rose","Inglot","Mac","Manicure Express","Neo Nail","Organique","Rossman","Semilac","Sephora","The Body Shop","Trendy Opticians","Twoje Soczewki","Unique Boutique","Vision Express","Yves Rocher","Ziaja Dla ciebie","Bacówka","centrum Wina","Kuchnie Świata","Tesco","Emporio Lui Miody","Dalia","Esotiq","Felina","Triumph","Vanilla Body Shop","Calzedonia","Chantelle","Etam","Gatta","Intimissimi","Tezenis","Słoń Torbalski","Apart","Bijou Brigitte","Briju","Chrono","Jubilo","Jubitom","Łyko","Beryl","Obag","Pandora","Parfois","Portfele Peterson","Prezent Marzeń","Samsonite","Smoke","Swarowski","SWISS","Time Trend","Tous","W.Kruk","Wittchen","Yes","POP FACTORY","Happy Socks","ZoZo Design","EM Gifts","Castorama","Duka","Home&You","Home&You Taste","Hurom","Komfort","Kwiaciarnia Ach!","MRP Home","Tschibo","Zara Home","Bartek","Coccodrillo","La Mila","Reporter Young","Sala Zabaw Labibu","Siemacha Spot","Smyk","ToysBox","Build&Play","Playmobil","Smyk","Zabawki drewniane","Media Markt","iSpot","Komputronik","Media Markt","Parktel","Samsung Brand Store","Telakces","X-Zone","Atelcom"],
     },
     {
         "id": 5,
@@ -107,7 +111,8 @@
                 "open": 9,
                 "close": 21
             },
-        }
+        },
+        "shops": ["4F","Apart","Apteka Dbam O Zdrowie","Benetton","Bijou Brigitte","Boft","Carrefour market","CCC","Centrum Wina","Cewe Fotojoker","Coco de mer","Cropp","Deichmann","Diverse","Dominika Młyńczak","Douglas","E-Glamour","EM Gifts","Empik","E-Smoking World","Fielmann","Five o'clock","Folkstar","Hera","HOMLA","Inglot","InMedio","Iqos","Ispot Apple Premium Reseller","Karmat","Kazar","Konopna","L'Occitane","Mango","Marilyn","Martes Sport","Media Markt","Medicine Everyday Therapy","Megapunkt","Mensa Home","Nanu-Nana","Neonail","New Yorker","NUGAT Cukiernia-Piekarnia","Ochnik","Olimp Store","Organique","Orsay","PARKTEL","Patrizia Aryton","Reserved","Rossmann","Ryłko","Sephora","Smoke Shop","Soczewkomat","Super Prezenty","Swarovski","SWISS","Świat Książki","TATUUM","Tchibo","Time Trend","Triumph","VAN GRAAF","Van Graaf - poziom 0","Venezia","Vision Express","Vistula","Viu Viu Optica","W. Kruk","Wittchen","Yes","Yves Rocher","Żabka"],
     },
     {
         "id": 6,
@@ -129,7 +134,8 @@
                 "open": 9,
                 "close": 21
             },
-        }
+        },
+        "shops": ["Biedronka","By motyl","Calypso fitness club","Centrum medyczne lux med","Costa coffee ","Deni cler","Design optyk","Emanuel berg","Empik","Gafas / twoje soczewki","In medio","Iqos","Kantor","Kuchnika","Le chic","Marc cain","Marella","Marilyn","Marius&amp;louis","Max mara weekend","Orange","Patrizia pepe","Pinko","Pretty auto - myjnia samochodowa","Rossmann"," s’portofino","Sfd","T-mobile","Teletorium","Tk maxx","Travelplanet","Tui","Viva fashion","Zakwasownia"],
     },
     {
         "id": 7,
@@ -151,7 +157,8 @@
                 "open": 9,
                 "close": 21
             },
-        }
+        },
+        "shops": ["Aclari diamonds","Analgomed","Apex one","Apteka lekosfera","Bankomat euronet","Basja","Basketplanet","Chrono - centrum  serwisowe","Costa coffee","Dom wina","Dorex kantory","Egurrola dance studio","esmokingworld","Esotiq","Eurospar","Eva minge store","Express oriental","Fitness academy","Galeria biżuterii artystycznej sławomira dereckiego","Galeria dna","Harmonia","Iqos","Karpicko cukiernia","Kofuku sushi","Kolporter","Księgarnia beta","Loty marzeń","Marche","Mcdonald`s","Monnari","Neonet","Noble bank","Optegra","Pafoscan sport suplement diety","Pdm outlet","Perfect clean","Play","Poczta polska","Pretty one","Red to kill","Restauracja alyki","Road american restaurant","Rossmann","Salon fryzjerski broadway group","Sky bowling kręgielnia","Sky fun","Soczewki24.pl","Solar","Soul cafe","Starbucks","Subway","Swiss","Teletorium","Thai lanna","Top secret","Vip biuro podróży","Viu viu optica","Zegarki.pl"],
     },
     {
         "id": 8,
@@ -173,6 +180,7 @@
                 "open": 9,
                 "close": 21
             },
-        }
+        },
+        "shops": ["Promocje","Sklepy","BEZPIECZNE ZAKUPY","O centrum","Dojazd","Godziny otwarcia","Wydarzenia","Kino","Kontakt","Agencja pocztowa","Apart","Apteka","Auchan","BoBoQ Fresh","CANAL+","Castorama","CCC","Charlie Food &amp; Friends","Cinema City","Costa Coffee","Crazy Cars","Cropp","Cukiernia Sowa","DASTAN","Decathlon","Diverse","Dream Mobile","eSmoking World","Fitness Academy","Fotojoker","Gatta","Go Sport","Greco","Grycan","In Medio","Inglot","IQOS","ITAKA","Jean Louis David","Jubiler Schubert","Kantor","Karmello","KFC","KODANO Optyk","Księgarnie Świat Książki","Kwiaciarnia","Lotto","Lynx Optique","Market Ubezpieczeń","McDonald's","Mennica Wrocławska","Mister Minit","mKiosk mBank","Mohito","NeoNail","Olimp Store","Orange","Orsay","Pasibus","Pizza Hut","Pko BP","Play","Plus","Pralnia EBS","Prezent Marzeń","Puccini","Quiosque","Rainbow Tours","Rossmann","Rtv Euro Agd","Ryłko","Sephora","Sinsay","Stoisko z biżuterią i ozdobami do włosów","Sunny Days","SUSHI ROYAL","SWISS","T-Mobile","Tape A L'oeil","Tchibo","Travel Planet","Unisono","UPC","Vision Express","Vistula","W.KRUK","Wojas","Wólczanka","Yes","Yves Rocher","Świat GSM","Kontakt","Newsletter","Karta podarunkowa","Polityka prywatności","Mapa strony"],
     },
 ]

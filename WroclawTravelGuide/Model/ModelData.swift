@@ -36,7 +36,6 @@ func loadFile(_ filename: String) -> Data {
 func loadURL(_ urlString: String) -> Data {
     if let url = URL(string: urlString) {
         if let data = try? Data(contentsOf: url) {
-            print(data)
             return data
         }
     }
