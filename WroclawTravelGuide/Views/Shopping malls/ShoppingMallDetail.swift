@@ -36,7 +36,7 @@ struct ShoppingMallDetail: View {
                     Button {
                         self.showDetailView = true
                     } label: {
-                        Text("Open shops map")
+                        Text("Shops list")
                     }
                     .buttonStyle(GenericButton())
                     
