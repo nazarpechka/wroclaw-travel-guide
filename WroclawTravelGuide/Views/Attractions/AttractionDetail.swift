@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct AttractionDetail: View {
+    @EnvironmentObject var modelData: ModelData
     var attraction: Attraction
+    
     var timeString: String {
         attraction.visitTime >= 60 ? "\(attraction.visitTime / 60) hour" : "\(attraction.visitTime) min"
+    }
+    var attractionIndex: Int {
+        modelData.attractions.firstIndex(where: { $0.id == attraction.id })!
     }
     
     var body: some View {
@@ -22,19 +27,12 @@ struct AttractionDetail: View {
                         .scaledToFill()
                         .frame(maxWidth: .infinity, maxHeight: 380)
                         .cornerRadius(25, corners: [.bottomLeft, .bottomRight])
-                    ZStack {
-                        Circle()
-                            .fill(Color.white)
-                            .frame(width: 55, height: 55)
-                        Image(systemName: "heart.fill")
-                            .resizable()
-                            .frame(width: 27, height: 27)
-                            .foregroundColor(Color("favourite-icon-color"))
-                    }
-                    .offset(x: 150, y:175)
-                    .shadow(color: Color("default-shadow"), radius: 20, x: 0, y: 10)
+                    FavoriteButton(isFavorite: $modelData.attractions[attractionIndex].isFavorite)
+                        .offset(x: 150, y:175)
+                        .shadow(color: Color("default-shadow"), radius: 20, x: 0, y: 10)
                 }
                 
+
                 Group {
                     VStack(alignment: .leading) {
                         Text(attraction.name)

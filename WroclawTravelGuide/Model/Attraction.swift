@@ -33,4 +33,5 @@ struct Attraction: Hashable, Codable, Identifiable {
     
     var visitTime: Int
     var workingHours: WorkingHours
+    var isFavorite: Bool
 }

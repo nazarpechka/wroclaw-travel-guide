@@ -69,6 +69,7 @@ struct HomeView: View {
             .navigationBarHidden(true)
             
         }
+        .navigationViewStyle(.stack)
         .onAppear() {
             modelData.locationManager.startUpdating()
         }
