@@ -39,6 +39,7 @@
 		E9E52497275EAF6F00B68DB9 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E52496275EAF6F00B68DB9 /* RoundedCorner.swift */; };
 		E9E52499275EBC9F00B68DB9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E52498275EBC9F00B68DB9 /* LocationManager.swift */; };
 		E9E8C23427871F65007B17CB /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E8C23327871F65007B17CB /* FavoriteButton.swift */; };
+		E9E8C236278722C2007B17CB /* ShopsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E8C235278722C2007B17CB /* ShopsList.swift */; };
 		E9F805BA275E6D6E00FA9189 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F805B9275E6D6E00FA9189 /* MapView.swift */; };
 		E9F805BD275E7D0500FA9189 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F805BC275E7D0500FA9189 /* ButtonStyle.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		E9E52496275EAF6F00B68DB9 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		E9E52498275EBC9F00B68DB9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		E9E8C23327871F65007B17CB /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		E9E8C235278722C2007B17CB /* ShopsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsList.swift; sourceTree = "<group>"; };
 		E9F805B9275E6D6E00FA9189 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E9F805BC275E7D0500FA9189 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +177,7 @@
 				0829EFB0272D4A9B00B83ACC /* ShoppingMallList.swift */,
 				0829EFB2272D4AB600B83ACC /* ShoppingMallButton.swift */,
 				089D631C273966BC002CCFB4 /* ShoppingMallDetail.swift */,
+				E9E8C235278722C2007B17CB /* ShopsList.swift */,
 			);
 			path = "Shopping malls";
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				E91AB911272475E600FD7889 /* HomeView.swift in Sources */,
 				E953C0582736DEC700FE1A37 /* Attraction.swift in Sources */,
 				08F9B8322744EFFD009EA2C3 /* Restaurant.swift in Sources */,
+				E9E8C236278722C2007B17CB /* ShopsList.swift in Sources */,
 				E9F805BD275E7D0500FA9189 /* ButtonStyle.swift in Sources */,
 				E9E52499275EBC9F00B68DB9 /* LocationManager.swift in Sources */,
 				0809B7F22770709600E64865 /* FactCard.swift in Sources */,

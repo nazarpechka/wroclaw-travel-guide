@@ -54,20 +54,11 @@ struct ShoppingMallDetail: View {
                 Spacer()
             }
         }
-        .ignoresSafeArea(.all)
         .sheet(isPresented: self.$showDetailView) {
-            VStack {
-                Text("Shops")
-                    .font(.title)
-                
-                List(mall.shops.sorted(), id: \.self) { shop in
-                    Text(shop)
-                }
-                Spacer()
-            }
-            .padding(.top)
-            
+            ShopsList(shops: mall.shops)
         }
+        .ignoresSafeArea(.all)
+        
     }
         
 }
